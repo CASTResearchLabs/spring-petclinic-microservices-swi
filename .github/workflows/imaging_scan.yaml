@@ -1,0 +1,66 @@
+name: Imaging Cloud Analyzer Action
+env:
+  version: 1
+  actor_email: ${{github.event.pusher.email  || 'crl@castsoftware.com' }}
+  raw_results: raw_results
+  swi_results: results
+on:
+  # push:
+  #   branches: [ swi ]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run-imaging-cloud-analyzer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ubuntu GitHub Actions environment variables List
+        run: env
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Commit config 
+        run: |
+          cd ${{github.workspace}}
+          git config --local user.email ${{env.actor_email}}
+          git config --local user.name ${{github.actor}}
+      - name: Handle Imaging Cloud Action results directories
+        run: |
+          cd ${{github.workspace}}
+          mkdir ./${{env.raw_results}} 
+          chmod a+w ./${{env.raw_results}} 
+          touch ./${{env.raw_results}}/README.md
+      - name: Run Imaging Cloud Action
+        run: |
+          cd ${{github.workspace}}
+          docker run -v ${{github.workspace}}/${{env.raw_results}}:/home/carl/extras/results -v ${{github.workspace}}/source:/home/carl/extras/source -e IMAGING_CLOUD_API_KEY=${{secrets.IMAGING_CLOUD_API_KEY}} -e REPO_URL=${{github.server_url}}/${{github.repository}} -e IMAGING_CLOUD_ACTION_FILE_VERSION=${{env.version}} castimaging/imaging-cloud-action:latest
+      - name: List Imaging Cloud Action results
+        run: |
+          ls -alsht ${{github.workspace}}/${{env.raw_results}}/fastscan
+          ls -alsht ${{github.workspace}}/${{env.raw_results}}/deep-analysis
+      # - name: Add Imaging Cloud Action results as artifact
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: repo-swi
+      #     path: ${{github.workspace}}/${{env.raw_results}}
+      - name: Handle Imaging Cloud Action SWI directory
+        run: |
+          cd ${{github.workspace}}
+          # mkdir ./${{env.swi_results}} 
+          chmod a+w ${{github.workspace}}/${{env.swi_results}} 
+          touch ${{github.workspace}}/${{env.swi_results}}/README.md
+          # ls -alsht ${{github.workspace}}
+          # ls -alsht ${{github.workspace}}/${{env.swi_results}}/
+      - name: Move select or post-processed files to SWI directory
+        run: |
+          cp ${{github.workspace}}/${{env.raw_results}}/deep-analysis/deep-analysis/repository/statistic_*.json ${{github.workspace}}/${{env.swi_results}}/
+      - name: Add select or post-processed files to repo
+        run: |
+          git add ${{github.workspace}}/${{env.swi_results}}/*
+          git commit -m "add stats"
+          git push
+      # - name: Push changes
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     repository: ${{github.server_url}}/${{github.repository}}
+      #     force: true
+      
