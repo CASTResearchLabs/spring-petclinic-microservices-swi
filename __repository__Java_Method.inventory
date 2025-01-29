@@ -1,0 +1,281 @@
+{
+  "main facts about type [Java Method]": {
+    "00. samples of [Java Method] element type in application [springemts]": {
+      "elements": [
+        {
+          "full_name": "org.springframework.samples.petclinic.api.application.VisitsServiceClient.getVisitsForPets",
+          "signature": "getVisitsForPets(java.util.List.List\u003cjava.lang.Integer\u003e) return reactor.core.publisher.Mono.Mono\u003corg.springframework.samples.petclinic.api.dto.Visits\u003e",
+          "name": "getVisitsForPets",
+          "nb_callers": 2,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "7"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 6,
+          "nb_callees": 13
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.getOwnerDetails",
+          "signature": "getOwnerDetails(int) return reactor.core.publisher.Mono.Mono\u003corg.springframework.samples.petclinic.api.dto.OwnerDetails\u003e",
+          "name": "getOwnerDetails",
+          "nb_callers": 1,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "12"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 6,
+          "nb_callees": 8
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.addVisitsToOwner",
+          "signature": "addVisitsToOwner(org.springframework.samples.petclinic.api.dto.OwnerDetails) return java.util.function.Function.Function\u003corg.springframework.samples.petclinic.api.dto.Visits,org.springframework.samples.petclinic.api.dto.OwnerDetails\u003e",
+          "name": "addVisitsToOwner",
+          "nb_callers": 3,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "11"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 2,
+          "nb_callees": 6
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.customers.model.Pet.toString",
+          "signature": "toString() return java.lang.String",
+          "name": "toString",
+          "nb_callers": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "11"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 3,
+          "nb_callees": 11
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.customers.web.PetResource.processCreationForm",
+          "signature": "processCreationForm(org.springframework.samples.petclinic.customers.web.PetRequest,int) return org.springframework.samples.petclinic.customers.model.Pet",
+          "name": "processCreationForm",
+          "nb_callers": 2,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "11"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 2,
+          "nb_callees": 7
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.api.application.CustomersServiceClient.getOwner",
+          "signature": "getOwner(int) return reactor.core.publisher.Mono.Mono\u003corg.springframework.samples.petclinic.api.dto.OwnerDetails\u003e",
+          "name": "getOwner",
+          "nb_callers": 1,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "6"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 3,
+          "nb_callees": 9
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.api.dto.OwnerDetails.getPetIds",
+          "signature": "getPetIds() return java.util.List.List\u003cjava.lang.Integer\u003e",
+          "name": "getPetIds",
+          "nb_callers": 2,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "6"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 2,
+          "nb_callees": 6
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.customers.model.Owner.getPetsInternal",
+          "signature": "getPetsInternal() return java.util.Set.Set\u003corg.springframework.samples.petclinic.customers.model.Pet\u003e",
+          "name": "getPetsInternal",
+          "nb_callers": 2,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "6"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "used_in_graphs": 2,
+          "nb_callees": 4
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.visits.web.VisitResource.read",
+          "signature": "read(java.util.List.List\u003cjava.lang.Integer\u003e) return org.springframework.samples.petclinic.visits.web.VisitResource.Visits",
+          "name": "read",
+          "nb_callers": 1,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "5"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 6,
+          "nb_callees": 4
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.customers.web.PetResource.findPetById",
+          "signature": "findPetById(int) return org.springframework.samples.petclinic.customers.model.Pet",
+          "name": "findPetById",
+          "nb_callers": 3,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "4"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 2,
+          "nb_callees": 4
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.vets.model.Vet.getSpecialtiesInternal",
+          "signature": "getSpecialtiesInternal() return java.util.Set.Set\u003corg.springframework.samples.petclinic.vets.model.Specialty\u003e",
+          "name": "getSpecialtiesInternal",
+          "nb_callers": 3,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "6"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 4
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.customers.model.Owner.toString",
+          "signature": "toString() return java.lang.String",
+          "name": "toString",
+          "nb_callers": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "11"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 9
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.customers.web.OwnerResource.updateOwner",
+          "signature": "updateOwner(int,org.springframework.samples.petclinic.customers.web.OwnerRequest) return void",
+          "name": "updateOwner",
+          "nb_callers": 2,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "8"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 6
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.api.ApiGatewayApplication.defaultCustomizer",
+          "signature": "defaultCustomizer() return org.springframework.cloud.client.circuitbreaker.Customizer.Customizer\u003corg.springframework.cloud.circuitbreaker.resilience4j.ReactiveResilience4JCircuitBreakerFactory\u003e",
+          "name": "defaultCustomizer",
+          "nb_callers": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "7"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 12
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.api.ApiGatewayApplication.routerFunction",
+          "signature": "routerFunction() return org.springframework.web.reactive.function.server.RouterFunction.RouterFunction\u003c? extends\u003e",
+          "name": "routerFunction",
+          "nb_callers": 1,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "7"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 8
+        }
+      ],
+      "total_nb": 137,
+      "elements_list_comment": "Java Method element list is truncated to first 15 items"
+    },
+    "Misc. Information": "1. all detail lists are truncated to show the first [15] entries only.\n2. all nested detail lists are truncated to show the first [5] entries only."
+  }
+}

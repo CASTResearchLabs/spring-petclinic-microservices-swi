@@ -1,0 +1,277 @@
+{
+  "main facts about type [JavaScript function]": {
+    "00. samples of [JavaScript function] element type in application [springemts]": {
+      "elements": [
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js.controller_PARAM_2_4.then_PARAM_1",
+          "signature": "",
+          "name": "then_PARAM_1",
+          "nb_callers": 2,
+          "used_in_graphs": 5,
+          "main_properties": [
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 6
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.controller.js.controller_PARAM_2_5",
+          "signature": "",
+          "name": "controller_PARAM_2_5",
+          "nb_callers": 1,
+          "used_in_graphs": 6,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "7"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "nb_callees": 2
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js.controller_PARAM_2_4",
+          "signature": "",
+          "name": "controller_PARAM_2_4",
+          "nb_callers": 1,
+          "used_in_graphs": 5,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "3"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "nb_callees": 3
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.controller.js.controller_PARAM_2_3",
+          "signature": "",
+          "name": "controller_PARAM_2_3",
+          "nb_callers": 1,
+          "used_in_graphs": 6,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "3"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "nb_callees": 2
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.controller.js.controller_PARAM_2_4",
+          "signature": "",
+          "name": "controller_PARAM_2_4",
+          "nb_callers": 1,
+          "used_in_graphs": 2,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "8"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "nb_callees": 2
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/app.js.petClinicApp_config_PARAM_1_5",
+          "signature": "",
+          "name": "petClinicApp_config_PARAM_1_5",
+          "nb_callers": 2,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "18"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.js.config_PARAM_1_2",
+          "signature": "",
+          "name": "config_PARAM_1_2",
+          "nb_callers": 2,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "13"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.js.config_PARAM_1_2",
+          "signature": "",
+          "name": "config_PARAM_1_2",
+          "nb_callers": 2,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "13"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.controller.js.controller_PARAM_2_2",
+          "signature": "",
+          "name": "controller_PARAM_2_2",
+          "nb_callers": 1,
+          "used_in_graphs": 2,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "3"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "nb_callees": 2
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.controller.js.controller_PARAM_2_2",
+          "signature": "",
+          "name": "controller_PARAM_2_2",
+          "nb_callers": 1,
+          "used_in_graphs": 2,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "3"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "nb_callees": 2
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.js.config_PARAM_1_2",
+          "signature": "",
+          "name": "config_PARAM_1_2",
+          "nb_callers": 2,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "8"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.js.config_PARAM_1_2",
+          "signature": "",
+          "name": "config_PARAM_1_2",
+          "nb_callers": 2,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "8"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.js.config_PARAM_1_2",
+          "signature": "",
+          "name": "config_PARAM_1_2",
+          "nb_callers": 2,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "8"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.js.config_PARAM_1_2",
+          "signature": "",
+          "name": "config_PARAM_1_2",
+          "nb_callers": 2,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "8"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "nb_callees": 0
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/app.js.forEach_PARAM_1",
+          "signature": "",
+          "name": "forEach_PARAM_1",
+          "nb_callers": 2,
+          "used_in_graphs": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "7"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "nb_callees": 0
+        }
+      ],
+      "total_nb": 33,
+      "elements_list_comment": "JavaScript function element list is truncated to first 15 items"
+    },
+    "Misc. Information": "1. all detail lists are truncated to show the first [15] entries only.\n2. all nested detail lists are truncated to show the first [5] entries only."
+  }
+}

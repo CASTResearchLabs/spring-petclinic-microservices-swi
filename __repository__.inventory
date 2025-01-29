@@ -1,0 +1,1363 @@
+{
+  "main facts about application [springemts]": {
+    "00. application [springemts] basic stats": {
+      "application_analysis_name": "Onboarding-202412201200",
+      "CRUD_data_access_types": "",
+      "data_sensitivity_levels": [],
+      "nb_source_applications": 0,
+      "nb_elements": 495,
+      "technology_list": [
+        "angularjs",
+        "hibernate",
+        "html",
+        "html templates",
+        "java",
+        "java server pages",
+        "javascript",
+        "jpa",
+        "spring",
+        "spring data",
+        "spring web services",
+        "sql"
+      ],
+      "application_analysis_date": "2024-12-20T12:00:00",
+      "nb_links": 693,
+      "linked_application_stats": {
+        "called_applications": {
+          "nb_applications": 0,
+          "nb_links": 0
+        },
+        "calling_applications": {
+          "nb_applications": 0,
+          "nb_links": 0
+        }
+      }
+    },
+    "01. application [springemts] composition": [
+      {
+        "nb_elements": 137,
+        "element_type": "Java Method"
+      },
+      {
+        "nb_elements": 61,
+        "element_type": "Java Class"
+      },
+      {
+        "nb_elements": 60,
+        "element_type": "Java Field"
+      },
+      {
+        "nb_elements": 47,
+        "element_type": "Java Constructor"
+      },
+      {
+        "nb_elements": 41,
+        "element_type": "Java Annotation Type"
+      },
+      {
+        "nb_elements": 33,
+        "element_type": "JavaScript function"
+      },
+      {
+        "nb_elements": 31,
+        "element_type": "Generic Java Interface"
+      },
+      {
+        "nb_elements": 30,
+        "element_type": "Java Instantiated Interface"
+      },
+      {
+        "nb_elements": 27,
+        "element_type": "JPA Entity Property"
+      },
+      {
+        "nb_elements": 26,
+        "element_type": "Java Interface"
+      },
+      {
+        "nb_elements": 24,
+        "element_type": "MySQL Table Column"
+      },
+      {
+        "nb_elements": 21,
+        "element_type": "HTML Pages"
+      },
+      {
+        "nb_elements": 21,
+        "element_type": "JavaScript Files"
+      },
+      {
+        "nb_elements": 14,
+        "element_type": "Java Lambda Expression"
+      },
+      {
+        "nb_elements": 14,
+        "element_type": "Java Record Component"
+      }
+    ],
+    "02. application [springemts] graphs representing semantic aggregations": [
+      {
+        "nb_graphs": 13,
+        "samples_list_comment": "Transaction list is truncated to first 5 items",
+        "graph_nature": "Transaction",
+        "samples": [
+          {
+            "name": "index.html",
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/index.html",
+            "starting_element_type": "AngularJS Application",
+            "size": 114
+          },
+          {
+            "name": "pet-form.template.html",
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.template.html",
+            "starting_element_type": "HTML Pages",
+            "size": 65
+          },
+          {
+            "name": "owner-details.template.html",
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.template.html",
+            "starting_element_type": "HTML Pages",
+            "size": 58
+          },
+          {
+            "name": "owner-form.template.html",
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.template.html",
+            "starting_element_type": "HTML Pages",
+            "size": 24
+          },
+          {
+            "name": "visits.template.html",
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.template.html",
+            "starting_element_type": "HTML Pages",
+            "size": 18
+          }
+        ]
+      },
+      {
+        "nb_graphs": 6,
+        "samples_list_comment": "DataGraph list is truncated to first 5 items",
+        "graph_nature": "DataGraph",
+        "samples": [
+          {
+            "name": "owners",
+            "full_name": "petclinic.owners",
+            "starting_element_type": "MySQL Table",
+            "size": 56
+          },
+          {
+            "name": "types",
+            "full_name": "petclinic.types",
+            "starting_element_type": "MySQL Table",
+            "size": 44
+          },
+          {
+            "name": "pets",
+            "full_name": "petclinic.pets",
+            "starting_element_type": "MySQL Table",
+            "size": 40
+          },
+          {
+            "name": "visits",
+            "full_name": "petclinic.visits",
+            "starting_element_type": "MySQL Table",
+            "size": 25
+          },
+          {
+            "name": "vets",
+            "full_name": "petclinic.vets",
+            "starting_element_type": "MySQL Table",
+            "size": 10
+          }
+        ]
+      }
+    ],
+    "03. properties of application [springemts] main elements": [
+      {
+        "elements_with_properties": [
+          {
+            "name": "petclinic.css",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 8466
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/css/petclinic.css"
+          },
+          {
+            "name": "petclinic.scss",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 161
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scss/petclinic.scss"
+          },
+          {
+            "name": "owner-details.template.html",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 64
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.template.html"
+          },
+          {
+            "name": "header.scss",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 62
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scss/header.scss"
+          },
+          {
+            "name": "typography.scss",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 52
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scss/typography.scss"
+          }
+        ],
+        "elements_with_properties_list_comment": "element list is truncated to first 5 items",
+        "nb_elements": 44,
+        "element_type": ""
+      },
+      {
+        "elements_with_properties": [
+          {
+            "name": "petclinic.css",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 8466
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/css/petclinic.css"
+          },
+          {
+            "name": "petclinic.scss",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 161
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scss/petclinic.scss"
+          },
+          {
+            "name": "header.scss",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 62
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scss/header.scss"
+          },
+          {
+            "name": "typography.scss",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 52
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scss/typography.scss"
+          },
+          {
+            "name": "header.css",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 51
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/css/header.css"
+          }
+        ],
+        "elements_with_properties_list_comment": "element list is truncated to first 5 items",
+        "nb_elements": 8,
+        "element_type": "CSS Files"
+      },
+      {
+        "elements_with_properties": [
+          {
+            "name": "Owner",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@Entity"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": "name\u003d"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 62
+              },
+              {
+                "property": "Efferent Coupling (CE)",
+                "value": 6
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.model.Owner"
+          },
+          {
+            "name": "PetResource",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@RestController"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": "description\u003d"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 47
+              },
+              {
+                "property": "Efferent Coupling (CE)",
+                "value": 7
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.web.PetResource"
+          },
+          {
+            "name": "Vet",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@Entity"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": "name\u003d"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 41
+              },
+              {
+                "property": "Efferent Coupling (CE)",
+                "value": 6
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.vets.model.Vet"
+          },
+          {
+            "name": "ApiGatewayController",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@RestController"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": "access\u003dlombok.AccessLevel.PUBLIC"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 34
+              },
+              {
+                "property": "Efferent Coupling (CE)",
+                "value": 8
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController"
+          },
+          {
+            "name": "OwnerResource",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@RequestMapping(\"/owners\")"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": "description\u003d"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 31
+              },
+              {
+                "property": "Efferent Coupling (CE)",
+                "value": 8
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.web.OwnerResource"
+          }
+        ],
+        "elements_with_properties_list_comment": "element list is truncated to first 5 items",
+        "nb_elements": 27,
+        "element_type": "Java Class"
+      },
+      {
+        "elements_with_properties": [
+          {
+            "name": "owner-details.template.html",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 64
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.template.html"
+          },
+          {
+            "name": "index.html",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 46
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/index.html"
+          },
+          {
+            "name": "pet-form.template.html",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 38
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.template.html"
+          },
+          {
+            "name": "nav.html",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 36
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/fragments/nav.html"
+          },
+          {
+            "name": "owner-form.template.html",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 32
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.template.html"
+          }
+        ],
+        "elements_with_properties_list_comment": "element list is truncated to first 5 items",
+        "nb_elements": 11,
+        "element_type": "HTML Pages"
+      },
+      {
+        "elements_with_properties": [
+          {
+            "name": "ApiGatewayApplication",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@EnableDiscoveryClient"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": ""
+              },
+              {
+                "property": "Number of code lines",
+                "value": 33
+              },
+              {
+                "property": "Efferent Coupling (CE)",
+                "value": 17
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.api.ApiGatewayApplication"
+          },
+          {
+            "name": "VetsServiceApplication",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@EnableDiscoveryClient"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": ""
+              },
+              {
+                "property": "Number of code lines",
+                "value": 8
+              },
+              {
+                "property": "Efferent Coupling (CE)",
+                "value": 6
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.vets.VetsServiceApplication"
+          },
+          {
+            "name": "SpringBootAdminApplication",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@SpringBootApplication"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": ""
+              },
+              {
+                "property": "Number of code lines",
+                "value": 8
+              },
+              {
+                "property": "Efferent Coupling (CE)",
+                "value": 5
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.admin.SpringBootAdminApplication"
+          },
+          {
+            "name": "DiscoveryServerApplication",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@SpringBootApplication"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": ""
+              },
+              {
+                "property": "Number of code lines",
+                "value": 7
+              },
+              {
+                "property": "Efferent Coupling (CE)",
+                "value": 4
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.discovery.DiscoveryServerApplication"
+          },
+          {
+            "name": "CustomersServiceApplication",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@EnableDiscoveryClient"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": ""
+              },
+              {
+                "property": "Number of code lines",
+                "value": 7
+              },
+              {
+                "property": "Efferent Coupling (CE)",
+                "value": 4
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.CustomersServiceApplication"
+          }
+        ],
+        "elements_with_properties_list_comment": "element list is truncated to first 5 items",
+        "nb_elements": 7,
+        "element_type": "Java Class Batch"
+      },
+      {
+        "elements_with_properties": [
+          {
+            "name": "pet-form.controller.js",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 43
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js"
+          },
+          {
+            "name": "app.js",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 29
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/app.js"
+          },
+          {
+            "name": "owner-form.controller.js",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 25
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.controller.js"
+          },
+          {
+            "name": "visits.controller.js",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 21
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.controller.js"
+          },
+          {
+            "name": "pet-form.js",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 15
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.js"
+          }
+        ],
+        "elements_with_properties_list_comment": "element list is truncated to first 5 items",
+        "nb_elements": 21,
+        "element_type": "JavaScript Files"
+      },
+      {
+        "elements_with_properties": [
+          {
+            "name": "petClinicApp_config_PARAM_1_5",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 18
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/app.js.petClinicApp_config_PARAM_1_5"
+          },
+          {
+            "name": "config_PARAM_1_2",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 13
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.js.config_PARAM_1_2"
+          },
+          {
+            "name": "config_PARAM_1_2",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 13
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.js.config_PARAM_1_2"
+          },
+          {
+            "name": "controller_PARAM_2_4",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 8
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 2
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.controller.js.controller_PARAM_2_4"
+          },
+          {
+            "name": "config_PARAM_1_2",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 8
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.js.config_PARAM_1_2"
+          }
+        ],
+        "elements_with_properties_list_comment": "element list is truncated to first 5 items",
+        "nb_elements": 33,
+        "element_type": "JavaScript function"
+      },
+      {
+        "elements_with_properties": [
+          {
+            "name": "PetDetails",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 12
+              },
+              {
+                "property": "Efferent Coupling (CE)",
+                "value": 4
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.web.PetDetails"
+          },
+          {
+            "name": "PetRequest",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 8
+              },
+              {
+                "property": "Efferent Coupling (CE)",
+                "value": 2
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.web.PetRequest"
+          },
+          {
+            "name": "OwnerRequest",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 9
+              },
+              {
+                "property": "Efferent Coupling (CE)",
+                "value": 1
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.web.OwnerRequest"
+          }
+        ],
+        "elements_with_properties_list_comment": "",
+        "nb_elements": 3,
+        "element_type": "Java Record"
+      },
+      {
+        "elements_with_properties": [
+          {
+            "name": "getOwnerDetails",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@GetMapping(value\u003d\"owners/{ownerId}\")"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": "value\u003downers/{ownerId}"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 12
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.getOwnerDetails"
+          },
+          {
+            "name": "processCreationForm",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@PostMapping(\"/owners/{ownerId}/pets\")"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": "value\u003d/owners/{ownerId}/pets"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 11
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.web.PetResource.processCreationForm"
+          },
+          {
+            "name": "toString",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@Override"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": ""
+              },
+              {
+                "property": "Number of code lines",
+                "value": 11
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.model.Pet.toString"
+          },
+          {
+            "name": "toString",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@Override"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": ""
+              },
+              {
+                "property": "Number of code lines",
+                "value": 11
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.model.Owner.toString"
+          },
+          {
+            "name": "addVisitsToOwner",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 11
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.addVisitsToOwner"
+          }
+        ],
+        "elements_with_properties_list_comment": "element list is truncated to first 5 items",
+        "nb_elements": 52,
+        "element_type": "Java Method"
+      },
+      {
+        "elements_with_properties": [
+          {
+            "name": "addVisitsToOwner$lambda$0",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 9
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.addVisitsToOwner.addVisitsToOwner$lambda$0"
+          },
+          {
+            "name": "getOwnerDetails$lambda$0",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 7
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.getOwnerDetails.getOwnerDetails$lambda$0"
+          },
+          {
+            "name": "addVisitsToOwner$lambda$0$lambda$0",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 4
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.addVisitsToOwner.addVisitsToOwner$lambda$0.addVisitsToOwner$lambda$0$lambda$0"
+          },
+          {
+            "name": "getOwnerDetails$lambda$0$lambda$0",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 4
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.getOwnerDetails.getOwnerDetails$lambda$0.getOwnerDetails$lambda$0$lambda$0"
+          },
+          {
+            "name": "defaultCustomizer$lambda$0$lambda$0",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 4
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.api.ApiGatewayApplication.defaultCustomizer.defaultCustomizer$lambda$0.defaultCustomizer$lambda$0$lambda$0"
+          }
+        ],
+        "elements_with_properties_list_comment": "element list is truncated to first 5 items",
+        "nb_elements": 14,
+        "element_type": "Java Lambda Expression"
+      },
+      {
+        "elements_with_properties": [
+          {
+            "name": "PetRepository",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 6
+              },
+              {
+                "property": "Efferent Coupling (CE)",
+                "value": 3
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.model.PetRepository"
+          },
+          {
+            "name": "VisitRepository",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 4
+              },
+              {
+                "property": "Efferent Coupling (CE)",
+                "value": 2
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.visits.model.VisitRepository"
+          },
+          {
+            "name": "VetRepository",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 2
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.vets.model.VetRepository"
+          },
+          {
+            "name": "OwnerRepository",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 1
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.model.OwnerRepository"
+          },
+          {
+            "name": "RequestPredicate",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@java.lang.FunctionalInterface()"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": ""
+              }
+            ],
+            "full_name": "org.springframework.web.reactive.function.server.RequestPredicate"
+          }
+        ],
+        "elements_with_properties_list_comment": "element list is truncated to first 5 items",
+        "nb_elements": 6,
+        "element_type": "Java Interface"
+      },
+      {
+        "elements_with_properties": [
+          {
+            "name": "telephone",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@Getter"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": "columnDefinition\u003d"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 6
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.model.Owner.telephone"
+          },
+          {
+            "name": "city",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@Getter"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": "columnDefinition\u003d"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 5
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.model.Owner.city"
+          },
+          {
+            "name": "address",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@Getter"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": "columnDefinition\u003d"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 5
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.model.Owner.address"
+          },
+          {
+            "name": "lastName",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@Getter"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": "columnDefinition\u003d"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 5
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.model.Owner.lastName"
+          },
+          {
+            "name": "firstName",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@Getter"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": "columnDefinition\u003d"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 5
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.model.Owner.firstName"
+          }
+        ],
+        "elements_with_properties_list_comment": "element list is truncated to first 5 items",
+        "nb_elements": 59,
+        "element_type": "Java Field"
+      },
+      {
+        "elements_with_properties": [
+          {
+            "name": "ResourceNotFoundException",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 3
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.web.ResourceNotFoundException.ResourceNotFoundException"
+          },
+          {
+            "name": "PetDetails",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 3
+              },
+              {
+                "property": "Cyclomatic Complexity",
+                "value": 1
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.web.PetDetails.PetDetails"
+          }
+        ],
+        "elements_with_properties_list_comment": "",
+        "nb_elements": 2,
+        "element_type": "Java Constructor"
+      },
+      {
+        "elements_with_properties": [
+          {
+            "name": "telephone",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@NotBlank"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 3
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.web.OwnerRequest.telephone"
+          },
+          {
+            "name": "name",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@Size(min\u003d1)"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 2
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.web.PetRequest.name"
+          },
+          {
+            "name": "birthDate",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@JsonFormat(pattern\u003d\"yyyy-MM-dd\")"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 2
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.web.PetRequest.birthDate"
+          },
+          {
+            "name": "birthDate",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@DateTimeFormat(pattern\u003d\"yyyy-MM-dd\")"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": "iso\u003dorg.springframework.format.annotation.DateTimeFormat.ISO.NONE"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 2
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.web.PetDetails.birthDate"
+          },
+          {
+            "name": "city",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@NotBlank"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 1
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.web.OwnerRequest.city"
+          }
+        ],
+        "elements_with_properties_list_comment": "element list is truncated to first 5 items",
+        "nb_elements": 14,
+        "element_type": "Java Record Component"
+      },
+      {
+        "elements_with_properties": [
+          {
+            "name": "Mapper\u003cR,E\u003e",
+            "properties": [
+              {
+                "property": "Number of code lines",
+                "value": 3
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.customers.web.mapper.Mapper"
+          },
+          {
+            "name": "ListPagingAndSortingRepository\u003cT extends java.lang.Object,ID extends java.lang.Object\u003e",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@org.springframework.data.repository.NoRepositoryBean()"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": ""
+              }
+            ],
+            "full_name": "org.springframework.data.repository.ListPagingAndSortingRepository"
+          },
+          {
+            "name": "CrudRepository\u003cT extends java.lang.Object,ID extends java.lang.Object\u003e",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@org.springframework.data.repository.NoRepositoryBean()"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": ""
+              }
+            ],
+            "full_name": "org.springframework.data.repository.CrudRepository"
+          },
+          {
+            "name": "ListCrudRepository\u003cT extends java.lang.Object,ID extends java.lang.Object\u003e",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@org.springframework.data.repository.NoRepositoryBean()"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": ""
+              }
+            ],
+            "full_name": "org.springframework.data.repository.ListCrudRepository"
+          },
+          {
+            "name": "JpaRepository\u003cT extends java.lang.Object,ID extends java.lang.Object\u003e",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@org.springframework.data.repository.NoRepositoryBean()"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": ""
+              }
+            ],
+            "full_name": "org.springframework.data.jpa.repository.JpaRepository"
+          }
+        ],
+        "elements_with_properties_list_comment": "element list is truncated to first 5 items",
+        "nb_elements": 8,
+        "element_type": "Generic Java Interface"
+      }
+    ],
+    "04. findings about application [springemts] main elements": [
+      {
+        "element_findings": [
+          {
+            "nb_findings": 1,
+            "category_findings": [
+              {
+                "finding": "Avoid using \"ng-repeat\" loop without \"track by\" option"
+              }
+            ],
+            "category_findings_list_comment": "",
+            "category": "Structural Flaw"
+          }
+        ],
+        "nb_findings": 1,
+        "elements": [
+          {
+            "nb_elements": 2,
+            "element_type": "HTML Pages",
+            "elements_with_findings": [
+              {
+                "name": "vet-list.template.html",
+                "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.template.html"
+              },
+              {
+                "name": "visits.template.html",
+                "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.template.html"
+              }
+            ],
+            "elements_with_findings_list_comment": ""
+          }
+        ],
+        "element_findings_list_comment": "",
+        "elements_list_comment": ""
+      }
+    ],
+    "Misc. Information": "1. all detail lists are truncated to show the first [15] entries only.\n2. all nested detail lists are truncated to show the first [5] entries only."
+  }
+}

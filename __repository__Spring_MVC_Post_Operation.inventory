@@ -1,0 +1,44 @@
+{
+  "main facts about type [Spring MVC Post Operation]": {
+    "00. samples of [Spring MVC Post Operation] element type in application [springemts]": {
+      "elements": [
+        {
+          "full_name": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java//PORT/POST/owners/{}/pets/",
+          "signature": "",
+          "name": "owners/{}/pets/",
+          "nb_callers": 4,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 2,
+          "nb_callees": 2
+        },
+        {
+          "full_name": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java/owners/PORT/POST/owners/",
+          "signature": "",
+          "name": "owners/",
+          "nb_callers": 4,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 2
+        },
+        {
+          "full_name": "spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java//PORT/POST/owners/{}/pets/{}/visits/",
+          "signature": "",
+          "name": "owners/{}/pets/{}/visits/",
+          "nb_callers": 4,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
+          "nb_callees": 2
+        }
+      ],
+      "total_nb": 3,
+      "elements_list_comment": ""
+    },
+    "Misc. Information": "1. all detail lists are truncated to show the first [15] entries only.\n2. all nested detail lists are truncated to show the first [5] entries only."
+  }
+}
