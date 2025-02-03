@@ -2,7 +2,30 @@
   "main facts about source code file [spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/VetRepository.java]": {
     "00. file [spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/VetRepository.java] defines following code elements": [
       {
-        "types": [],
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "VetRepository.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Interface",
+            "elements": [
+              {
+                "name": "VetRepository",
+                "signature": ""
+              }
+            ]
+          }
+        ],
         "files_list_comment": ""
       }
     ],

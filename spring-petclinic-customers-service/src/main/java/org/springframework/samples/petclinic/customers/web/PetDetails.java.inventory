@@ -2,7 +2,68 @@
   "main facts about source code file [spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java]": {
     "00. file [spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java] defines following code elements": [
       {
-        "types": [],
+        "types": [
+          {
+            "nb_elements": 5,
+            "comment": "",
+            "type": "Java Record Component",
+            "elements": [
+              {
+                "name": "type",
+                "signature": ""
+              },
+              {
+                "name": "birthDate",
+                "signature": ""
+              },
+              {
+                "name": "owner",
+                "signature": ""
+              },
+              {
+                "name": "name",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Record",
+            "elements": [
+              {
+                "name": "PetDetails",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "",
+            "elements": [
+              {
+                "name": "PetDetails.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "PetDetails",
+                "signature": "PetDetails(org.springframework.samples.petclinic.customers.model.Pet)"
+              }
+            ]
+          }
+        ],
         "files_list_comment": ""
       }
     ],

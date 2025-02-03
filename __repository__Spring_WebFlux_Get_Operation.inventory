@@ -1,26 +1,26 @@
 {
   "main facts about type [Spring WebFlux Get Operation]": {
-    "00. samples of [Spring WebFlux Get Operation] element type in application [springemts]": {
+    "00. samples of [Spring WebFlux Get Operation] element type in application [spms]": {
       "elements": [
         {
           "full_name": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java.CAST_SpringWebFlux_GetOperation./",
           "signature": "",
           "name": "/",
           "nb_callers": 0,
-          "used_in_graphs": 1,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 1,
           "nb_callees": 2
         },
         {
           "full_name": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java.CAST_SpringWebFlux_GetOperation./",
           "name": "/",
           "nb_callers": 0,
-          "used_in_graphs": 0,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 0,
           "nb_callees": 0
         }
       ],

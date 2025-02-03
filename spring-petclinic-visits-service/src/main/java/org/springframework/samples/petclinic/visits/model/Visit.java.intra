@@ -1,0 +1,12 @@
+{
+  "main facts about source code file [spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java]": {
+    "00. dependencies between elements defined in file [spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java]": [
+      {
+        "calls_between_elements": [],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 0
+      }
+    ],
+    "Misc. Information": "1. all detail lists are truncated to show the first [15] entries only.\n2. all nested detail lists are truncated to show the first [5] entries only."
+  }
+}

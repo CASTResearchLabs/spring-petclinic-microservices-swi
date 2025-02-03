@@ -1,6 +1,6 @@
 {
   "main facts about type [AngularJS Application]": {
-    "00. samples of [AngularJS Application] element type in application [springemts]": {
+    "00. samples of [AngularJS Application] element type in application [spms]": {
       "elements": [
         {
           "full_name": "spring-petclinic-api-gateway/src/main/resources/static/index.html",

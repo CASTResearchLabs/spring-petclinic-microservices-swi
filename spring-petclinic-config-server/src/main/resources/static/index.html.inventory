@@ -2,7 +2,49 @@
   "main facts about source code file [spring-petclinic-config-server/src/main/resources/static/index.html]": {
     "00. file [spring-petclinic-config-server/src/main/resources/static/index.html] defines following code elements": [
       {
-        "types": [],
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "JavaScript HttpRequest Get Service",
+            "elements": [
+              {
+                "name": "http://localhost:8888/vets-service-docker.yml",
+                "signature": ""
+              },
+              {
+                "name": "application-default.yml",
+                "signature": ""
+              },
+              {
+                "name": "https://cloud.spring.io/spring-cloud-config",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "index.html",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "HTML Pages",
+            "elements": [
+              {
+                "name": "index.html",
+                "signature": ""
+              }
+            ]
+          }
+        ],
         "files_list_comment": ""
       }
     ],

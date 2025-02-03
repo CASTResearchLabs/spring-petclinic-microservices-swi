@@ -1,11 +1,13 @@
 {
-  "main facts about application [springemts]": {
-    "00. application [springemts] basic stats": {
-      "application_analysis_name": "Onboarding-202412201200",
+  "main facts about application [spms]": {
+    "00. application [spms] basic stats": {
+      "application_analysis_name": "Onboarding-202501101147",
       "CRUD_data_access_types": "",
-      "data_sensitivity_levels": [],
+      "data_sensitivity_levels": [
+        "Sensitive Data"
+      ],
       "nb_source_applications": 0,
-      "nb_elements": 495,
+      "nb_elements": 496,
       "technology_list": [
         "angularjs",
         "hibernate",
@@ -16,12 +18,11 @@
         "javascript",
         "jpa",
         "spring",
-        "spring data",
         "spring web services",
         "sql"
       ],
-      "application_analysis_date": "2024-12-20T12:00:00",
-      "nb_links": 693,
+      "application_analysis_date": "2025-01-10T11:47:00",
+      "nb_links": 707,
       "linked_application_stats": {
         "called_applications": {
           "nb_applications": 0,
@@ -33,7 +34,7 @@
         }
       }
     },
-    "01. application [springemts] composition": [
+    "01. application [spms] composition": [
       {
         "nb_elements": 137,
         "element_type": "Java Method"
@@ -67,10 +68,6 @@
         "element_type": "Java Instantiated Interface"
       },
       {
-        "nb_elements": 27,
-        "element_type": "JPA Entity Property"
-      },
-      {
         "nb_elements": 26,
         "element_type": "Java Interface"
       },
@@ -80,11 +77,11 @@
       },
       {
         "nb_elements": 21,
-        "element_type": "HTML Pages"
+        "element_type": "JavaScript Files"
       },
       {
         "nb_elements": 21,
-        "element_type": "JavaScript Files"
+        "element_type": "HTML Pages"
       },
       {
         "nb_elements": 14,
@@ -93,9 +90,13 @@
       {
         "nb_elements": 14,
         "element_type": "Java Record Component"
+      },
+      {
+        "nb_elements": 14,
+        "element_type": "Java Instantiated Method"
       }
     ],
-    "02. application [springemts] graphs representing semantic aggregations": [
+    "02. application [spms] graphs representing semantic aggregations": [
       {
         "nb_graphs": 13,
         "samples_list_comment": "Transaction list is truncated to first 5 items",
@@ -105,19 +106,19 @@
             "name": "index.html",
             "full_name": "spring-petclinic-api-gateway/src/main/resources/static/index.html",
             "starting_element_type": "AngularJS Application",
-            "size": 114
-          },
-          {
-            "name": "pet-form.template.html",
-            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.template.html",
-            "starting_element_type": "HTML Pages",
-            "size": 65
+            "size": 108
           },
           {
             "name": "owner-details.template.html",
             "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.template.html",
             "starting_element_type": "HTML Pages",
-            "size": 58
+            "size": 61
+          },
+          {
+            "name": "pet-form.template.html",
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.template.html",
+            "starting_element_type": "HTML Pages",
+            "size": 52
           },
           {
             "name": "owner-form.template.html",
@@ -139,39 +140,39 @@
         "graph_nature": "DataGraph",
         "samples": [
           {
-            "name": "owners",
-            "full_name": "petclinic.owners",
-            "starting_element_type": "MySQL Table",
-            "size": 56
-          },
-          {
             "name": "types",
             "full_name": "petclinic.types",
             "starting_element_type": "MySQL Table",
-            "size": 44
+            "size": 36
+          },
+          {
+            "name": "owners",
+            "full_name": "petclinic.owners",
+            "starting_element_type": "MySQL Table",
+            "size": 23
           },
           {
             "name": "pets",
             "full_name": "petclinic.pets",
             "starting_element_type": "MySQL Table",
-            "size": 40
+            "size": 21
           },
           {
             "name": "visits",
             "full_name": "petclinic.visits",
             "starting_element_type": "MySQL Table",
-            "size": 25
+            "size": 20
           },
           {
-            "name": "vets",
-            "full_name": "petclinic.vets",
+            "name": "specialties",
+            "full_name": "petclinic.specialties",
             "starting_element_type": "MySQL Table",
-            "size": 10
+            "size": 2
           }
         ]
       }
     ],
-    "03. properties of application [springemts] main elements": [
+    "03. properties of application [spms] main elements": [
       {
         "elements_with_properties": [
           {
@@ -636,7 +637,7 @@
             "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.controller.js"
           },
           {
-            "name": "pet-form.js",
+            "name": "owner-form.js",
             "properties": [
               {
                 "property": "Number of code lines",
@@ -647,7 +648,7 @@
                 "value": 1
               }
             ],
-            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.js"
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.js"
           }
         ],
         "elements_with_properties_list_comment": "element list is truncated to first 5 items",
@@ -1056,11 +1057,11 @@
             "full_name": "org.springframework.samples.petclinic.customers.model.Owner.telephone"
           },
           {
-            "name": "city",
+            "name": "date",
             "properties": [
               {
                 "property": "Annotation:",
-                "value": "@Getter"
+                "value": "@Builder.Default"
               },
               {
                 "property": "AnnotationValue",
@@ -1071,32 +1072,14 @@
                 "value": 5
               }
             ],
-            "full_name": "org.springframework.samples.petclinic.customers.model.Owner.city"
-          },
-          {
-            "name": "address",
-            "properties": [
-              {
-                "property": "Annotation:",
-                "value": "@Getter"
-              },
-              {
-                "property": "AnnotationValue",
-                "value": "columnDefinition\u003d"
-              },
-              {
-                "property": "Number of code lines",
-                "value": 5
-              }
-            ],
-            "full_name": "org.springframework.samples.petclinic.customers.model.Owner.address"
+            "full_name": "org.springframework.samples.petclinic.visits.model.Visit.date"
           },
           {
             "name": "lastName",
             "properties": [
               {
                 "property": "Annotation:",
-                "value": "@Getter"
+                "value": "@Column(name\u003d\"last_name\")"
               },
               {
                 "property": "AnnotationValue",
@@ -1107,14 +1090,14 @@
                 "value": 5
               }
             ],
-            "full_name": "org.springframework.samples.petclinic.customers.model.Owner.lastName"
+            "full_name": "org.springframework.samples.petclinic.vets.model.Vet.lastName"
           },
           {
             "name": "firstName",
             "properties": [
               {
                 "property": "Annotation:",
-                "value": "@Getter"
+                "value": "@Column(name\u003d\"first_name\")"
               },
               {
                 "property": "AnnotationValue",
@@ -1125,7 +1108,25 @@
                 "value": 5
               }
             ],
-            "full_name": "org.springframework.samples.petclinic.customers.model.Owner.firstName"
+            "full_name": "org.springframework.samples.petclinic.vets.model.Vet.firstName"
+          },
+          {
+            "name": "id",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@Id"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": "generator\u003d"
+              },
+              {
+                "property": "Number of code lines",
+                "value": 5
+              }
+            ],
+            "full_name": "org.springframework.samples.petclinic.vets.model.Vet.id"
           }
         ],
         "elements_with_properties_list_comment": "element list is truncated to first 5 items",
@@ -1220,7 +1221,7 @@
               },
               {
                 "property": "AnnotationValue",
-                "value": "iso\u003dorg.springframework.format.annotation.DateTimeFormat.ISO.NONE"
+                "value": "fallbackPatterns\u003d"
               },
               {
                 "property": "Number of code lines",
@@ -1230,18 +1231,14 @@
             "full_name": "org.springframework.samples.petclinic.customers.web.PetDetails.birthDate"
           },
           {
-            "name": "city",
+            "name": "typeId",
             "properties": [
-              {
-                "property": "Annotation:",
-                "value": "@NotBlank"
-              },
               {
                 "property": "Number of code lines",
                 "value": 1
               }
             ],
-            "full_name": "org.springframework.samples.petclinic.customers.web.OwnerRequest.city"
+            "full_name": "org.springframework.samples.petclinic.customers.web.PetRequest.typeId"
           }
         ],
         "elements_with_properties_list_comment": "element list is truncated to first 5 items",
@@ -1261,6 +1258,34 @@
             "full_name": "org.springframework.samples.petclinic.customers.web.mapper.Mapper"
           },
           {
+            "name": "Repository\u003cT extends java.lang.Object,ID extends java.lang.Object\u003e",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@org.springframework.stereotype.Indexed()"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": ""
+              }
+            ],
+            "full_name": "org.springframework.data.repository.Repository"
+          },
+          {
+            "name": "HandlerFunction\u003cT extends org.springframework.web.reactive.function.server.ServerResponse\u003e",
+            "properties": [
+              {
+                "property": "Annotation:",
+                "value": "@java.lang.FunctionalInterface()"
+              },
+              {
+                "property": "AnnotationValue",
+                "value": ""
+              }
+            ],
+            "full_name": "org.springframework.web.reactive.function.server.HandlerFunction"
+          },
+          {
             "name": "ListPagingAndSortingRepository\u003cT extends java.lang.Object,ID extends java.lang.Object\u003e",
             "properties": [
               {
@@ -1275,7 +1300,7 @@
             "full_name": "org.springframework.data.repository.ListPagingAndSortingRepository"
           },
           {
-            "name": "CrudRepository\u003cT extends java.lang.Object,ID extends java.lang.Object\u003e",
+            "name": "PagingAndSortingRepository\u003cT extends java.lang.Object,ID extends java.lang.Object\u003e",
             "properties": [
               {
                 "property": "Annotation:",
@@ -1286,43 +1311,15 @@
                 "value": ""
               }
             ],
-            "full_name": "org.springframework.data.repository.CrudRepository"
-          },
-          {
-            "name": "ListCrudRepository\u003cT extends java.lang.Object,ID extends java.lang.Object\u003e",
-            "properties": [
-              {
-                "property": "Annotation:",
-                "value": "@org.springframework.data.repository.NoRepositoryBean()"
-              },
-              {
-                "property": "AnnotationValue",
-                "value": ""
-              }
-            ],
-            "full_name": "org.springframework.data.repository.ListCrudRepository"
-          },
-          {
-            "name": "JpaRepository\u003cT extends java.lang.Object,ID extends java.lang.Object\u003e",
-            "properties": [
-              {
-                "property": "Annotation:",
-                "value": "@org.springframework.data.repository.NoRepositoryBean()"
-              },
-              {
-                "property": "AnnotationValue",
-                "value": ""
-              }
-            ],
-            "full_name": "org.springframework.data.jpa.repository.JpaRepository"
+            "full_name": "org.springframework.data.repository.PagingAndSortingRepository"
           }
         ],
         "elements_with_properties_list_comment": "element list is truncated to first 5 items",
-        "nb_elements": 8,
+        "nb_elements": 10,
         "element_type": "Generic Java Interface"
       }
     ],
-    "04. findings about application [springemts] main elements": [
+    "04. findings about application [spms] main elements": [
       {
         "element_findings": [
           {

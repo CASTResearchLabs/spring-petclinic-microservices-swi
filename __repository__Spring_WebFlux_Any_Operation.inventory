@@ -1,6 +1,6 @@
 {
   "main facts about type [Spring WebFlux Any Operation]": {
-    "00. samples of [Spring WebFlux Any Operation] element type in application [springemts]": {
+    "00. samples of [Spring WebFlux Any Operation] element type in application [spms]": {
       "elements": [
         {
           "full_name": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java.CAST_SpringWebFlux_AnyOperation./{}",

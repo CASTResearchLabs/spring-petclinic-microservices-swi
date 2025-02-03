@@ -1,6 +1,6 @@
 {
   "main facts about type [Spring MVC Post Operation]": {
-    "00. samples of [Spring MVC Post Operation] element type in application [springemts]": {
+    "00. samples of [Spring MVC Post Operation] element type in application [spms]": {
       "elements": [
         {
           "full_name": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java//PORT/POST/owners/{}/pets/",

@@ -2,9 +2,73 @@
   "main facts about source code file [spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/OwnerDetails.java]": {
     "00. source files defining elements dependent on elements defined in file [spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/OwnerDetails.java]": [
       {
-        "files": [],
+        "files": [
+          {
+            "from_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java",
+            "calls_between_elements": [
+              {
+                "from_type": "Java Lambda Expression",
+                "to_type": "Java Method",
+                "from_name": "addVisitsToOwner$lambda$0",
+                "to_name": "getPets",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "addVisitsToOwner",
+                "to_name": "getPets",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Lambda Expression",
+                "to_type": "Java Method",
+                "from_name": "getOwnerDetails$lambda$0",
+                "to_name": "getPetIds",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getOwnerDetails",
+                "to_name": "getPetIds",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ApiGatewayController",
+                "to_name": "OwnerDetails",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 8
+          },
+          {
+            "from_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java",
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getOwner",
+                "to_name": "OwnerDetails",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "CustomersServiceClient",
+                "to_name": "OwnerDetails",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2
+          }
+        ],
         "files_list_comment": "",
-        "nb_files_with_calling_elements": 0
+        "nb_files_with_calling_elements": 2
       }
     ],
     "Misc. Information": "1. all detail lists are truncated to show the first [15] entries only.\n2. all nested detail lists are truncated to show the first [5] entries only."

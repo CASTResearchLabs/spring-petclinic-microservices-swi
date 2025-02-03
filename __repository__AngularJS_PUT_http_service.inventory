@@ -1,27 +1,27 @@
 {
   "main facts about type [AngularJS PUT http service]": {
-    "00. samples of [AngularJS PUT http service] element type in application [springemts]": {
+    "00. samples of [AngularJS PUT http service] element type in application [spms]": {
       "elements": [
-        {
-          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.controller.js.controller_PARAM_2_4.submitOwnerForm.put.api/customer/owners/{}",
-          "signature": "",
-          "name": "api/customer/owners/{}",
-          "nb_callers": 2,
-          "used_in_graphs": 1,
-          "main_properties": [
-            {}
-          ],
-          "nb_callees": 1
-        },
         {
           "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js.controller_PARAM_2_4.submit.put.api/customer/owners/{}/pets/{}",
           "signature": "",
           "name": "api/customer/owners/{}/pets/{}",
           "nb_callers": 2,
-          "used_in_graphs": 1,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 2,
+          "nb_callees": 1
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.controller.js.controller_PARAM_2_4.submitOwnerForm.put.api/customer/owners/{}",
+          "signature": "",
+          "name": "api/customer/owners/{}",
+          "nb_callers": 2,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
           "nb_callees": 1
         }
       ],

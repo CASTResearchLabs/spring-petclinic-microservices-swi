@@ -1,27 +1,16 @@
 {
   "main facts about type [Spring MVC Get Operation]": {
-    "00. samples of [Spring MVC Get Operation] element type in application [springemts]": {
+    "00. samples of [Spring MVC Get Operation] element type in application [spms]": {
       "elements": [
         {
           "full_name": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java/owners/PORT/GET/owners/{}/",
           "signature": "",
           "name": "owners/{}/",
           "nb_callers": 9,
+          "main_properties": [
+            {}
+          ],
           "used_in_graphs": 4,
-          "main_properties": [
-            {}
-          ],
-          "nb_callees": 2
-        },
-        {
-          "full_name": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java//PORT/GET/owners/{}/pets/{}/",
-          "signature": "",
-          "name": "owners/{}/pets/{}/",
-          "nb_callers": 4,
-          "used_in_graphs": 5,
-          "main_properties": [
-            {}
-          ],
           "nb_callees": 2
         },
         {
@@ -29,10 +18,10 @@
           "signature": "",
           "name": "pets/visits/",
           "nb_callers": 3,
-          "used_in_graphs": 6,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 6,
           "nb_callees": 2
         },
         {
@@ -40,10 +29,10 @@
           "signature": "",
           "name": "api/gateway/owners/{}/",
           "nb_callers": 2,
-          "used_in_graphs": 6,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 6,
           "nb_callees": 2
         },
         {
@@ -51,21 +40,21 @@
           "signature": "",
           "name": "owners/{}/pets/{}/visits/",
           "nb_callers": 2,
-          "used_in_graphs": 6,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 6,
           "nb_callees": 2
         },
         {
-          "full_name": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java/owners/PORT/GET/owners/",
+          "full_name": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java//PORT/GET/owners/{}/pets/{}/",
           "signature": "",
-          "name": "owners/",
-          "nb_callers": 2,
-          "used_in_graphs": 2,
+          "name": "owners/{}/pets/{}/",
+          "nb_callers": 4,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 2,
           "nb_callees": 2
         },
         {
@@ -73,10 +62,21 @@
           "signature": "",
           "name": "petTypes/",
           "nb_callers": 2,
-          "used_in_graphs": 2,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 3,
+          "nb_callees": 2
+        },
+        {
+          "full_name": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java/owners/PORT/GET/owners/",
+          "signature": "",
+          "name": "owners/",
+          "nb_callers": 2,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 2,
           "nb_callees": 2
         },
         {
@@ -84,10 +84,10 @@
           "signature": "",
           "name": "vets/",
           "nb_callers": 2,
-          "used_in_graphs": 2,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 2,
           "nb_callees": 2
         }
       ],

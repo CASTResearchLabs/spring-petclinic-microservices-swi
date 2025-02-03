@@ -2,7 +2,45 @@
   "main facts about source code file [spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java]": {
     "00. file [spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java] defines following code elements": [
       {
-        "types": [],
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "findByPetIdIn",
+                "signature": "findByPetIdIn(java.util.Collection.Collection\u003cjava.lang.Integer\u003e) return java.util.List.List\u003corg.springframework.samples.petclinic.visits.model.Visit\u003e"
+              },
+              {
+                "name": "findByPetId",
+                "signature": "findByPetId(int) return java.util.List.List\u003corg.springframework.samples.petclinic.visits.model.Visit\u003e"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "VisitRepository.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Interface",
+            "elements": [
+              {
+                "name": "VisitRepository",
+                "signature": ""
+              }
+            ]
+          }
+        ],
         "files_list_comment": ""
       }
     ],

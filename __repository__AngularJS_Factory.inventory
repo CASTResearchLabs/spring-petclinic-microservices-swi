@@ -1,9 +1,9 @@
 {
   "main facts about type [AngularJS Factory]": {
-    "00. samples of [AngularJS Factory] element type in application [springemts]": {
+    "00. samples of [AngularJS Factory] element type in application [spms]": {
       "elements": [
         {
-          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/infrastructure/httpErrorHandlingInterceptor.js.spring-petclinic-api-gateway/src/",
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/infrastructure/httpErrorHandlingInterceptor.js.spring-petclinic-api-gateway/src/main/resourc",
           "signature": "",
           "name": "HttpErrorHandlingInterceptor",
           "nb_callers": 1,

@@ -2,7 +2,30 @@
   "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.template.html]": {
     "00. file [spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.template.html] defines following code elements": [
       {
-        "types": [],
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "owner-form.template.html",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "HTML Pages",
+            "elements": [
+              {
+                "name": "owner-form.template.html",
+                "signature": ""
+              }
+            ]
+          }
+        ],
         "files_list_comment": ""
       }
     ],

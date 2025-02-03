@@ -1,6 +1,6 @@
 {
   "main facts about type [AngularJS Model function]": {
-    "00. samples of [AngularJS Model function] element type in application [springemts]": {
+    "00. samples of [AngularJS Model function] element type in application [spms]": {
       "elements": [
         {
           "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js.petForm.PetFormController.submit",

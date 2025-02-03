@@ -1,16 +1,16 @@
 {
   "main facts about type [AngularJS GET http service]": {
-    "00. samples of [AngularJS GET http service] element type in application [springemts]": {
+    "00. samples of [AngularJS GET http service] element type in application [spms]": {
       "elements": [
         {
           "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.controller.js.controller_PARAM_2_3.get.api/gateway/owners/{}",
           "signature": "",
           "name": "api/gateway/owners/{}",
           "nb_callers": 2,
-          "used_in_graphs": 6,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 6,
           "nb_callees": 1
         },
         {
@@ -18,43 +18,10 @@
           "signature": "",
           "name": "api/visit/owners/{}/pets/{}/visits",
           "nb_callers": 2,
+          "main_properties": [
+            {}
+          ],
           "used_in_graphs": 6,
-          "main_properties": [
-            {}
-          ],
-          "nb_callees": 1
-        },
-        {
-          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js.controller_PARAM_2_4.then_PARAM_1.get.api/customer/owners/{}/pets/{}",
-          "signature": "",
-          "name": "api/customer/owners/{}/pets/{}",
-          "nb_callers": 1,
-          "used_in_graphs": 5,
-          "main_properties": [
-            {}
-          ],
-          "nb_callees": 1
-        },
-        {
-          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.controller.js.controller_PARAM_2_2.get.api/customer/owners",
-          "signature": "",
-          "name": "api/customer/owners",
-          "nb_callers": 2,
-          "used_in_graphs": 2,
-          "main_properties": [
-            {}
-          ],
-          "nb_callees": 1
-        },
-        {
-          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.controller.js.controller_PARAM_2_4.get.api/customer/owners/{}",
-          "signature": "",
-          "name": "api/customer/owners/{}",
-          "nb_callers": 2,
-          "used_in_graphs": 2,
-          "main_properties": [
-            {}
-          ],
           "nb_callees": 1
         },
         {
@@ -62,10 +29,32 @@
           "signature": "",
           "name": "api/customer/petTypes",
           "nb_callers": 2,
-          "used_in_graphs": 2,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 3,
+          "nb_callees": 1
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.controller.js.controller_PARAM_2_2.get.api/customer/owners",
+          "signature": "",
+          "name": "api/customer/owners",
+          "nb_callers": 2,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 2,
+          "nb_callees": 1
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.controller.js.controller_PARAM_2_4.get.api/customer/owners/{}",
+          "signature": "",
+          "name": "api/customer/owners/{}",
+          "nb_callers": 2,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 2,
           "nb_callees": 1
         },
         {
@@ -73,10 +62,10 @@
           "signature": "",
           "name": "api/vet/vets",
           "nb_callers": 2,
-          "used_in_graphs": 2,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 2,
           "nb_callees": 1
         },
         {
@@ -84,10 +73,21 @@
           "signature": "",
           "name": "api/customer/owners/{}",
           "nb_callers": 1,
-          "used_in_graphs": 2,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 2,
+          "nb_callees": 1
+        },
+        {
+          "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js.controller_PARAM_2_4.then_PARAM_1.get.api/customer/owners/{}/pets/{}",
+          "signature": "",
+          "name": "api/customer/owners/{}/pets/{}",
+          "nb_callers": 1,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 2,
           "nb_callees": 1
         }
       ],

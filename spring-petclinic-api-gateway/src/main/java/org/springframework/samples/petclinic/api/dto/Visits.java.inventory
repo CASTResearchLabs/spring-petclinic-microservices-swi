@@ -2,7 +2,63 @@
   "main facts about source code file [spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/Visits.java]": {
     "00. file [spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/Visits.java] defines following code elements": [
       {
-        "types": [],
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "items",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Instantiated Class",
+            "elements": [
+              {
+                "name": "Visits\u003cVisits\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "Visits.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "Visits",
+                "signature": "Visits()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "Visits",
+                "signature": ""
+              }
+            ]
+          }
+        ],
         "files_list_comment": ""
       }
     ],

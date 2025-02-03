@@ -1,6 +1,6 @@
 {
   "main facts about type [Java Method]": {
-    "00. samples of [Java Method] element type in application [springemts]": {
+    "00. samples of [Java Method] element type in application [spms]": {
       "elements": [
         {
           "full_name": "org.springframework.samples.petclinic.api.application.VisitsServiceClient.getVisitsForPets",
@@ -54,25 +54,7 @@
             }
           ],
           "used_in_graphs": 2,
-          "nb_callees": 6
-        },
-        {
-          "full_name": "org.springframework.samples.petclinic.customers.model.Pet.toString",
-          "signature": "toString() return java.lang.String",
-          "name": "toString",
-          "nb_callers": 0,
-          "main_properties": [
-            {
-              "property": "Number of code lines",
-              "value": "11"
-            },
-            {
-              "property": "Cyclomatic Complexity",
-              "value": "1"
-            }
-          ],
-          "used_in_graphs": 3,
-          "nb_callees": 11
+          "nb_callees": 8
         },
         {
           "full_name": "org.springframework.samples.petclinic.customers.web.PetResource.processCreationForm",
@@ -129,24 +111,6 @@
           "nb_callees": 6
         },
         {
-          "full_name": "org.springframework.samples.petclinic.customers.model.Owner.getPetsInternal",
-          "signature": "getPetsInternal() return java.util.Set.Set\u003corg.springframework.samples.petclinic.customers.model.Pet\u003e",
-          "name": "getPetsInternal",
-          "nb_callers": 2,
-          "main_properties": [
-            {
-              "property": "Number of code lines",
-              "value": "6"
-            },
-            {
-              "property": "Cyclomatic Complexity",
-              "value": "2"
-            }
-          ],
-          "used_in_graphs": 2,
-          "nb_callees": 4
-        },
-        {
           "full_name": "org.springframework.samples.petclinic.visits.web.VisitResource.read",
           "signature": "read(java.util.List.List\u003cjava.lang.Integer\u003e) return org.springframework.samples.petclinic.visits.web.VisitResource.Visits",
           "name": "read",
@@ -163,6 +127,24 @@
           ],
           "used_in_graphs": 6,
           "nb_callees": 4
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.customers.model.Pet.toString",
+          "signature": "toString() return java.lang.String",
+          "name": "toString",
+          "nb_callers": 0,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "11"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 11
         },
         {
           "full_name": "org.springframework.samples.petclinic.customers.web.PetResource.findPetById",
@@ -183,24 +165,6 @@
           "nb_callees": 4
         },
         {
-          "full_name": "org.springframework.samples.petclinic.vets.model.Vet.getSpecialtiesInternal",
-          "signature": "getSpecialtiesInternal() return java.util.Set.Set\u003corg.springframework.samples.petclinic.vets.model.Specialty\u003e",
-          "name": "getSpecialtiesInternal",
-          "nb_callers": 3,
-          "main_properties": [
-            {
-              "property": "Number of code lines",
-              "value": "6"
-            },
-            {
-              "property": "Cyclomatic Complexity",
-              "value": "2"
-            }
-          ],
-          "used_in_graphs": 1,
-          "nb_callees": 4
-        },
-        {
           "full_name": "org.springframework.samples.petclinic.customers.model.Owner.toString",
           "signature": "toString() return java.lang.String",
           "name": "toString",
@@ -215,7 +179,7 @@
               "value": "1"
             }
           ],
-          "used_in_graphs": 1,
+          "used_in_graphs": 0,
           "nb_callees": 9
         },
         {
@@ -237,6 +201,24 @@
           "nb_callees": 6
         },
         {
+          "full_name": "org.springframework.samples.petclinic.customers.web.PetResource.save",
+          "signature": "save(org.springframework.samples.petclinic.customers.model.Pet,org.springframework.samples.petclinic.customers.web.PetRequest) return org.springframework.samples.petclinic.customers.model.Pet",
+          "name": "save",
+          "nb_callers": 2,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "8"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "1"
+            }
+          ],
+          "used_in_graphs": 2,
+          "nb_callees": 3
+        },
+        {
           "full_name": "org.springframework.samples.petclinic.api.ApiGatewayApplication.defaultCustomizer",
           "signature": "defaultCustomizer() return org.springframework.cloud.client.circuitbreaker.Customizer.Customizer\u003corg.springframework.cloud.circuitbreaker.resilience4j.ReactiveResilience4JCircuitBreakerFactory\u003e",
           "name": "defaultCustomizer",
@@ -253,6 +235,24 @@
           ],
           "used_in_graphs": 0,
           "nb_callees": 12
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.vets.model.Vet.getSpecialtiesInternal",
+          "signature": "getSpecialtiesInternal() return java.util.Set.Set\u003corg.springframework.samples.petclinic.vets.model.Specialty\u003e",
+          "name": "getSpecialtiesInternal",
+          "nb_callers": 3,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "6"
+            },
+            {
+              "property": "Cyclomatic Complexity",
+              "value": "2"
+            }
+          ],
+          "used_in_graphs": 0,
+          "nb_callees": 3
         },
         {
           "full_name": "org.springframework.samples.petclinic.api.ApiGatewayApplication.routerFunction",

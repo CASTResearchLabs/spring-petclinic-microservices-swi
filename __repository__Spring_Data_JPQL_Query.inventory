@@ -1,28 +1,28 @@
 {
   "main facts about type [Spring Data JPQL Query]": {
-    "00. samples of [Spring Data JPQL Query] element type in application [springemts]": {
+    "00. samples of [Spring Data JPQL Query] element type in application [spms]": {
       "elements": [
         {
           "full_name": "org.springframework.samples.petclinic.customers.model.PetRepository.findPetTypes/SELECT ptype FROM PetType",
           "signature": "",
           "name": "SELECT ptype FROM PetType",
           "nb_callers": 1,
-          "used_in_graphs": 2,
           "main_properties": [
             {}
           ],
-          "nb_callees": 0
+          "used_in_graphs": 3,
+          "nb_callees": 1
         },
         {
           "full_name": "org.springframework.samples.petclinic.customers.model.PetRepository.findPetTypeById/FROM PetType ptype WHERE",
           "signature": "",
           "name": "FROM PetType ptype WHERE",
           "nb_callers": 1,
-          "used_in_graphs": 1,
           "main_properties": [
             {}
           ],
-          "nb_callees": 0
+          "used_in_graphs": 2,
+          "nb_callees": 1
         }
       ],
       "total_nb": 2,

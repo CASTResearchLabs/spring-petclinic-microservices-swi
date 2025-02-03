@@ -1,19 +1,19 @@
 {
   "main facts about type [Java Field]": {
-    "00. samples of [Java Field] element type in application [springemts]": {
+    "00. samples of [Java Field] element type in application [spms]": {
       "elements": [
         {
           "full_name": "org.springframework.samples.petclinic.api.application.VisitsServiceClient.hostname",
           "signature": "",
           "name": "hostname",
           "nb_callers": 2,
-          "used_in_graphs": 6,
           "main_properties": [
             {
               "property": "Number of code lines",
               "value": "1"
             }
           ],
+          "used_in_graphs": 6,
           "nb_callees": 1
         },
         {
@@ -21,13 +21,13 @@
           "signature": "",
           "name": "ownerRepository",
           "nb_callers": 0,
-          "used_in_graphs": 5,
           "main_properties": [
             {
               "property": "Number of code lines",
               "value": "1"
             }
           ],
+          "used_in_graphs": 5,
           "nb_callees": 0
         },
         {
@@ -35,13 +35,13 @@
           "signature": "",
           "name": "specialties",
           "nb_callers": 1,
-          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
               "value": "4"
             }
           ],
+          "used_in_graphs": 0,
           "nb_callees": 1
         },
         {
@@ -49,13 +49,13 @@
           "signature": "",
           "name": "pets",
           "nb_callers": 0,
-          "used_in_graphs": 2,
           "main_properties": [
             {
               "property": "Number of code lines",
               "value": "1"
             }
           ],
+          "used_in_graphs": 2,
           "nb_callees": 2
         },
         {
@@ -63,13 +63,13 @@
           "signature": "",
           "name": "indexHtml",
           "nb_callers": 2,
-          "used_in_graphs": 1,
           "main_properties": [
             {
               "property": "Number of code lines",
               "value": "2"
             }
           ],
+          "used_in_graphs": 1,
           "nb_callees": 0
         },
         {
@@ -77,13 +77,13 @@
           "signature": "",
           "name": "pets",
           "nb_callers": 1,
-          "used_in_graphs": 1,
           "main_properties": [
             {
               "property": "Number of code lines",
               "value": "2"
             }
           ],
+          "used_in_graphs": 1,
           "nb_callees": 1
         },
         {
@@ -91,13 +91,13 @@
           "signature": "",
           "name": "telephone",
           "nb_callers": 1,
-          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
               "value": "6"
             }
           ],
+          "used_in_graphs": 0,
           "nb_callees": 0
         },
         {
@@ -105,13 +105,13 @@
           "signature": "",
           "name": "address",
           "nb_callers": 1,
-          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
               "value": "5"
             }
           ],
+          "used_in_graphs": 0,
           "nb_callees": 0
         },
         {
@@ -119,13 +119,13 @@
           "signature": "",
           "name": "city",
           "nb_callers": 1,
-          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
               "value": "5"
             }
           ],
+          "used_in_graphs": 0,
           "nb_callees": 0
         },
         {
@@ -133,13 +133,13 @@
           "signature": "",
           "name": "date",
           "nb_callers": 0,
-          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
               "value": "5"
             }
           ],
+          "used_in_graphs": 0,
           "nb_callees": 1
         },
         {
@@ -147,13 +147,13 @@
           "signature": "",
           "name": "visitRepository",
           "nb_callers": 0,
-          "used_in_graphs": 3,
           "main_properties": [
             {
               "property": "Number of code lines",
               "value": "1"
             }
           ],
+          "used_in_graphs": 3,
           "nb_callees": 0
         },
         {
@@ -161,13 +161,13 @@
           "signature": "",
           "name": "firstName",
           "nb_callers": 0,
-          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
               "value": "5"
             }
           ],
+          "used_in_graphs": 0,
           "nb_callees": 0
         },
         {
@@ -175,13 +175,13 @@
           "signature": "",
           "name": "firstName",
           "nb_callers": 0,
-          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
               "value": "5"
             }
           ],
+          "used_in_graphs": 0,
           "nb_callees": 0
         },
         {
@@ -189,13 +189,13 @@
           "signature": "",
           "name": "id",
           "nb_callers": 0,
-          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
               "value": "5"
             }
           ],
+          "used_in_graphs": 0,
           "nb_callees": 0
         },
         {
@@ -203,13 +203,13 @@
           "signature": "",
           "name": "id",
           "nb_callers": 0,
-          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
               "value": "5"
             }
           ],
+          "used_in_graphs": 0,
           "nb_callees": 0
         }
       ],

@@ -1,0 +1,97 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.controller.js]": {
+    "00. dependencies between elements defined in file [spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.controller.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "AngularJS Model function",
+            "to_type": "AngularJS POST http service",
+            "from_name": "submitOwnerForm",
+            "to_name": "api/customer/owners/{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "AngularJS POST http service",
+            "from_name": "submitOwnerForm",
+            "to_name": "api/customer/owners/{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "AngularJS Controller",
+            "to_type": "AngularJS GET http service",
+            "from_name": "OwnerFormController",
+            "to_name": "api/customer/owners/{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "AngularJS GET http service",
+            "from_name": "controller_PARAM_2_4",
+            "to_name": "api/customer/owners/{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "AngularJS Model function",
+            "to_type": "AngularJS PUT http service",
+            "from_name": "submitOwnerForm",
+            "to_name": "api/customer/owners/{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "AngularJS PUT http service",
+            "from_name": "submitOwnerForm",
+            "to_name": "api/customer/owners/{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "AngularJS Model function",
+            "to_type": "JavaScript function",
+            "from_name": "submitOwnerForm",
+            "to_name": "then_PARAM_1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "submitOwnerForm",
+            "to_name": "then_PARAM_1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "AngularJS Controller",
+            "to_type": "JavaScript function",
+            "from_name": "OwnerFormController",
+            "to_name": "then_PARAM_1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "controller_PARAM_2_4",
+            "to_name": "then_PARAM_1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "AngularJS Controller",
+            "to_type": "JavaScript Files",
+            "from_name": "OwnerFormController",
+            "to_name": "owner-form.controller.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "AngularJS Controller",
+            "from_name": "owner-form.controller.js",
+            "to_name": "OwnerFormController",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 14
+      }
+    ],
+    "Misc. Information": "1. all detail lists are truncated to show the first [15] entries only.\n2. all nested detail lists are truncated to show the first [5] entries only."
+  }
+}

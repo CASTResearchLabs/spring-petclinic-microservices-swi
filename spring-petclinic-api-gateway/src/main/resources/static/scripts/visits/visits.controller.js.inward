@@ -2,9 +2,66 @@
   "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.controller.js]": {
     "00. source files defining elements dependent on elements defined in file [spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.controller.js]": [
       {
-        "files": [],
+        "files": [
+          {
+            "from_file": "spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.template.html",
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "JavaScript Files",
+                "from_name": "visits.template.html",
+                "to_name": "visits.controller.js",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "AngularJS Model function",
+                "from_name": "visits.template.html",
+                "to_name": "submit",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "AngularJS Controller",
+                "from_name": "visits.template.html",
+                "to_name": "VisitsController",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "AngularJS Controller",
+                "from_name": "visits.template.html",
+                "to_name": "VisitsController",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4
+          },
+          {
+            "from_file": "spring-petclinic-api-gateway/src/main/resources/static/index.html",
+            "calls_between_elements": [
+              {
+                "from_type": "AngularJS Application",
+                "to_type": "JavaScript function",
+                "from_name": "index.html",
+                "to_name": "controller_PARAM_2_5",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "AngularJS Application",
+                "to_type": "AngularJS Controller",
+                "from_name": "index.html",
+                "to_name": "VisitsController",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2
+          }
+        ],
         "files_list_comment": "",
-        "nb_files_with_calling_elements": 0
+        "nb_files_with_calling_elements": 2
       }
     ],
     "Misc. Information": "1. all detail lists are truncated to show the first [15] entries only.\n2. all nested detail lists are truncated to show the first [5] entries only."

@@ -2,7 +2,30 @@
   "main facts about source code file [spring-petclinic-visits-service/src/main/resources/db/hsqldb/schema.sql]": {
     "00. file [spring-petclinic-visits-service/src/main/resources/db/hsqldb/schema.sql] defines following code elements": [
       {
-        "types": [],
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "MySQL Index",
+            "elements": [
+              {
+                "name": "visits_pet_id",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "schema.sql",
+                "signature": ""
+              }
+            ]
+          }
+        ],
         "files_list_comment": ""
       }
     ],

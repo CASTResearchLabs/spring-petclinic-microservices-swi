@@ -1,6 +1,6 @@
 {
   "main facts about type [JavaScript HttpRequest Get Service]": {
-    "00. samples of [JavaScript HttpRequest Get Service] element type in application [springemts]": {
+    "00. samples of [JavaScript HttpRequest Get Service] element type in application [spms]": {
       "elements": [
         {
           "full_name": "spring-petclinic-config-server/src/main/resources/static/index.html.get.application-default.yml",

@@ -1,13 +1,12 @@
 {
   "main facts about type [Java Class]": {
-    "00. samples of [Java Class] element type in application [springemts]": {
+    "00. samples of [Java Class] element type in application [spms]": {
       "elements": [
         {
           "full_name": "org.springframework.samples.petclinic.customers.model.Owner",
           "signature": "",
           "name": "Owner",
           "nb_callers": 8,
-          "used_in_graphs": 5,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -18,24 +17,7 @@
               "value": "6"
             }
           ],
-          "nb_callees": 9
-        },
-        {
-          "full_name": "org.springframework.samples.petclinic.vets.model.Vet",
-          "signature": "",
-          "name": "Vet",
-          "nb_callers": 3,
-          "used_in_graphs": 2,
-          "main_properties": [
-            {
-              "property": "Number of code lines",
-              "value": "41"
-            },
-            {
-              "property": "Efferent Coupling (CE)",
-              "value": "6"
-            }
-          ],
+          "used_in_graphs": 5,
           "nb_callees": 8
         },
         {
@@ -43,7 +25,6 @@
           "signature": "",
           "name": "PetResource",
           "nb_callers": 5,
-          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -54,14 +35,32 @@
               "value": "7"
             }
           ],
+          "used_in_graphs": 0,
           "nb_callees": 8
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.vets.model.Vet",
+          "signature": "",
+          "name": "Vet",
+          "nb_callers": 3,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "41"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "6"
+            }
+          ],
+          "used_in_graphs": 2,
+          "nb_callees": 7
         },
         {
           "full_name": "org.springframework.samples.petclinic.customers.model.Pet",
           "signature": "",
           "name": "Pet",
           "nb_callers": 7,
-          "used_in_graphs": 2,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -72,14 +71,14 @@
               "value": "5"
             }
           ],
-          "nb_callees": 4
+          "used_in_graphs": 2,
+          "nb_callees": 3
         },
         {
           "full_name": "org.springframework.samples.petclinic.api.dto.OwnerDetails",
           "signature": "",
           "name": "OwnerDetails",
           "nb_callers": 5,
-          "used_in_graphs": 2,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -90,6 +89,7 @@
               "value": "4"
             }
           ],
+          "used_in_graphs": 2,
           "nb_callees": 4
         },
         {
@@ -97,7 +97,6 @@
           "signature": "",
           "name": "OwnerResource",
           "nb_callers": 5,
-          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -108,32 +107,14 @@
               "value": "8"
             }
           ],
+          "used_in_graphs": 0,
           "nb_callees": 5
-        },
-        {
-          "full_name": "org.springframework.samples.petclinic.visits.model.Visit",
-          "signature": "",
-          "name": "Visit",
-          "nb_callers": 7,
-          "used_in_graphs": 3,
-          "main_properties": [
-            {
-              "property": "Number of code lines",
-              "value": "21"
-            },
-            {
-              "property": "Efferent Coupling (CE)",
-              "value": "4"
-            }
-          ],
-          "nb_callees": 2
         },
         {
           "full_name": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController",
           "signature": "",
           "name": "ApiGatewayController",
           "nb_callers": 2,
-          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -144,14 +125,32 @@
               "value": "8"
             }
           ],
-          "nb_callees": 7
+          "used_in_graphs": 0,
+          "nb_callees": 9
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.visits.model.Visit",
+          "signature": "",
+          "name": "Visit",
+          "nb_callers": 7,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "21"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "4"
+            }
+          ],
+          "used_in_graphs": 3,
+          "nb_callees": 1
         },
         {
           "full_name": "org.springframework.samples.petclinic.api.application.VisitsServiceClient",
           "signature": "",
           "name": "VisitsServiceClient",
           "nb_callers": 1,
-          "used_in_graphs": 2,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -162,6 +161,7 @@
               "value": "8"
             }
           ],
+          "used_in_graphs": 2,
           "nb_callees": 8
         },
         {
@@ -169,7 +169,6 @@
           "signature": "",
           "name": "VisitResource",
           "nb_callers": 4,
-          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -180,32 +179,14 @@
               "value": "8"
             }
           ],
+          "used_in_graphs": 0,
           "nb_callees": 2
-        },
-        {
-          "full_name": "org.springframework.samples.petclinic.customers.model.PetType",
-          "signature": "",
-          "name": "PetType",
-          "nb_callers": 6,
-          "used_in_graphs": 2,
-          "main_properties": [
-            {
-              "property": "Number of code lines",
-              "value": "13"
-            },
-            {
-              "property": "Efferent Coupling (CE)",
-              "value": "3"
-            }
-          ],
-          "nb_callees": 1
         },
         {
           "full_name": "org.springframework.samples.petclinic.api.dto.PetDetails",
           "signature": "",
           "name": "PetDetails",
-          "nb_callers": 3,
-          "used_in_graphs": 2,
+          "nb_callers": 4,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -216,14 +197,32 @@
               "value": "3"
             }
           ],
+          "used_in_graphs": 2,
           "nb_callees": 2
+        },
+        {
+          "full_name": "org.springframework.samples.petclinic.customers.model.PetType",
+          "signature": "",
+          "name": "PetType",
+          "nb_callers": 6,
+          "main_properties": [
+            {
+              "property": "Number of code lines",
+              "value": "13"
+            },
+            {
+              "property": "Efferent Coupling (CE)",
+              "value": "3"
+            }
+          ],
+          "used_in_graphs": 2,
+          "nb_callees": 0
         },
         {
           "full_name": "org.springframework.samples.petclinic.api.dto.Visits",
           "signature": "",
           "name": "Visits",
           "nb_callers": 5,
-          "used_in_graphs": 2,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -234,6 +233,7 @@
               "value": "2"
             }
           ],
+          "used_in_graphs": 2,
           "nb_callees": 2
         },
         {
@@ -241,7 +241,6 @@
           "signature": "",
           "name": "CustomersServiceClient",
           "nb_callers": 1,
-          "used_in_graphs": 2,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -252,6 +251,7 @@
               "value": "5"
             }
           ],
+          "used_in_graphs": 2,
           "nb_callees": 4
         },
         {
@@ -259,7 +259,6 @@
           "signature": "",
           "name": "VetResource",
           "nb_callers": 2,
-          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -270,6 +269,7 @@
               "value": "5"
             }
           ],
+          "used_in_graphs": 0,
           "nb_callees": 2
         }
       ],

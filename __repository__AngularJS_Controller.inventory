@@ -1,6 +1,6 @@
 {
   "main facts about type [AngularJS Controller]": {
-    "00. samples of [AngularJS Controller] element type in application [springemts]": {
+    "00. samples of [AngularJS Controller] element type in application [spms]": {
       "elements": [
         {
           "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js.petForm.PetFormController",
@@ -10,7 +10,7 @@
           "main_properties": [
             {}
           ],
-          "used_in_graphs": 5,
+          "used_in_graphs": 3,
           "nb_callees": 9
         },
         {

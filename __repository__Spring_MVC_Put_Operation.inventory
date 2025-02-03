@@ -1,27 +1,27 @@
 {
   "main facts about type [Spring MVC Put Operation]": {
-    "00. samples of [Spring MVC Put Operation] element type in application [springemts]": {
+    "00. samples of [Spring MVC Put Operation] element type in application [spms]": {
       "elements": [
-        {
-          "full_name": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java/owners/PORT/PUT/owners/{}/",
-          "signature": "",
-          "name": "owners/{}/",
-          "nb_callers": 4,
-          "used_in_graphs": 1,
-          "main_properties": [
-            {}
-          ],
-          "nb_callees": 2
-        },
         {
           "full_name": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java//PORT/PUT/owners/{}/pets/{}/",
           "signature": "",
           "name": "owners/{}/pets/{}/",
           "nb_callers": 4,
-          "used_in_graphs": 1,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 2,
+          "nb_callees": 2
+        },
+        {
+          "full_name": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java/owners/PORT/PUT/owners/{}/",
+          "signature": "",
+          "name": "owners/{}/",
+          "nb_callers": 4,
+          "main_properties": [
+            {}
+          ],
+          "used_in_graphs": 1,
           "nb_callees": 2
         }
       ],

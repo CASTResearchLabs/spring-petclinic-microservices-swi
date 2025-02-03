@@ -2,7 +2,60 @@
   "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/infrastructure/httpErrorHandlingInterceptor.js]": {
     "00. file [spring-petclinic-api-gateway/src/main/resources/static/scripts/infrastructure/httpErrorHandlingInterceptor.js] defines following code elements": [
       {
-        "types": [],
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "responseError",
+                "signature": ""
+              },
+              {
+                "name": "error.errors_map_PARAM_1",
+                "signature": ""
+              },
+              {
+                "name": "factory_PARAM_2",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "httpErrorHandlingInterceptor.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "httpErrorHandlingInterceptor.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "AngularJS Factory",
+            "elements": [
+              {
+                "name": "HttpErrorHandlingInterceptor",
+                "signature": ""
+              }
+            ]
+          }
+        ],
         "files_list_comment": ""
       }
     ],
