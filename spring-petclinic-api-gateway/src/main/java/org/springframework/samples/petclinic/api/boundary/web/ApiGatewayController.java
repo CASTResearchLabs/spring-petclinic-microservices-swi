@@ -60,20 +60,22 @@ public class ApiGatewayController {
                         ReactiveCircuitBreaker cb = cbFactory.create("getOwnerDetails");
                         return cb.run(it, throwable -> emptyVisitsForPets());
                     })
-                    .map(addVisitsToOwner(owner))
+                    .map(addVisitsToOwners(List.of(owner)))
             );
 
     }
 
-    private Function<Visits, OwnerDetails> addVisitsToOwner(OwnerDetails owner) {
+    private Function<Visits, List<OwnerDetails>> addVisitsToOwners(List<OwnerDetails> owners) {
         return visits -> {
-            owner.pets()
-                .forEach(pet -> pet.visits()
-                    .addAll(visits.items().stream()
-                        .filter(v -> v.petId() == pet.id())
-                        .toList())
-                );
-            return owner;
+            owners.forEach(owner -> {
+                owner.pets()
+                    .forEach(pet -> pet.visits()
+                        .addAll(visits.items().stream()
+                            .filter(v -> v.petId() == pet.id())
+                            .toList())
+                    );
+            });
+            return owners;
         };
     }
 
