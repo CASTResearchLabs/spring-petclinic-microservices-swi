@@ -59,8 +59,9 @@ public class ApiGatewayController {
 
     }
 
-    private Function<Visits, OwnerDetails> addVisitsToOwner(OwnerDetails owner) {
+    private Function<Visits, List<OwnerDetails>> addVisitsToOwners(List<OwnerDetails> owners) {
         return visits -> {
+            owners.forEach(owner -> {
             owner.getPets()
                 .forEach(pet -> pet.getVisits()
                     .addAll(visits.getItems().stream()
