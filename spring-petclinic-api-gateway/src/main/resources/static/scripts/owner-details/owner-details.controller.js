@@ -5,6 +5,6 @@ angular.module('ownerDetails')
         var self = this;
 
         $http.get('api/gateway/owners/' + $stateParams.ownerId).then(function (resp) {
-            self.owner = resp.data;
+            self.owners = resp.data;
         });
     }]);
