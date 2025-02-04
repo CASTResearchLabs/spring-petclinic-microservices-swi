@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.js]": {
+    "00. dependencies between elements defined in file [spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Initialisation",
+            "to_type": "JavaScript function",
+            "from_name": "owner-list.js",
+            "to_name": "config_PARAM_1_2",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "owner-list.js",
+            "to_name": "config_PARAM_1_2",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "owner-list.js",
+            "to_name": "owner-list.js",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 3
+      }
+    ]
+  }
+}

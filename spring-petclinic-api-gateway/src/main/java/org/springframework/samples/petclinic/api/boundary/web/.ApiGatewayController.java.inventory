@@ -1,0 +1,135 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java]": {
+    "00. file [spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "nb_elements": 6,
+            "comment": "elements list is truncated to first 5 items",
+            "type": "Java Lambda Expression",
+            "elements": [
+              {
+                "name": "addVisitsToOwner$lambda$0$lambda$0$lambda$0",
+                "signature": "addVisitsToOwner$lambda$0$lambda$0$lambda$0(???) return ???"
+              },
+              {
+                "name": "addVisitsToOwner$lambda$0$lambda$0",
+                "signature": "addVisitsToOwner$lambda$0$lambda$0(org.springframework.samples.petclinic.api.dto.PetDetails) return void"
+              },
+              {
+                "name": "addVisitsToOwner$lambda$0",
+                "signature": "addVisitsToOwner$lambda$0(org.springframework.samples.petclinic.api.dto.Visits) return R"
+              },
+              {
+                "name": "getOwnerDetails$lambda$0$lambda$0$lambda$0",
+                "signature": "getOwnerDetails$lambda$0$lambda$0$lambda$0(???) return ???"
+              },
+              {
+                "name": "getOwnerDetails$lambda$0$lambda$0",
+                "signature": "getOwnerDetails$lambda$0$lambda$0(org.springframework.samples.petclinic.api.dto.Visits) return R"
+              }
+            ]
+          },
+          {
+            "nb_elements": 3,
+            "comment": "",
+            "type": "",
+            "elements": [
+              {
+                "name": "/api/gateway",
+                "signature": ""
+              },
+              {
+                "name": "ApiGatewayController.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 3,
+            "comment": "",
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "cbFactory",
+                "signature": ""
+              },
+              {
+                "name": "visitsServiceClient",
+                "signature": ""
+              },
+              {
+                "name": "customersServiceClient",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 3,
+            "comment": "",
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "emptyVisitsForPets",
+                "signature": "emptyVisitsForPets() return reactor.core.publisher.Mono.Mono\u003corg.springframework.samples.petclinic.api.dto.Visits\u003e"
+              },
+              {
+                "name": "addVisitsToOwner",
+                "signature": "addVisitsToOwner(org.springframework.samples.petclinic.api.dto.OwnerDetails) return java.util.function.Function.Function\u003corg.springframework.samples.petclinic.api.dto.Visits,org.springframework.samples.petclinic.api.dto.OwnerDetails\u003e"
+              },
+              {
+                "name": "getOwnerDetails",
+                "signature": "getOwnerDetails(int) return reactor.core.publisher.Mono.Mono\u003corg.springframework.samples.petclinic.api.dto.OwnerDetails\u003e"
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Spring MVC Get Operation",
+            "elements": [
+              {
+                "name": "api/gateway/owners/{}/",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Instantiated Constructor",
+            "elements": [
+              {
+                "name": "Visits\u003cVisits\u003e",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ApiGatewayController",
+                "signature": "ApiGatewayController()"
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "ApiGatewayController",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

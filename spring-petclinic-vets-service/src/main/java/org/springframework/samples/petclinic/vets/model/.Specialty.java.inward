@@ -1,0 +1,47 @@
+{
+  "main facts about source code file [spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java]": {
+    "00. source files defining elements dependent on elements defined in file [spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java]": [
+      {
+        "files": [
+          {
+            "from_file": "spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java",
+            "calls_between_elements": [
+              {
+                "from_type": "Java Field",
+                "to_type": "Java Class",
+                "from_name": "specialties",
+                "to_name": "Specialty",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getSpecialties",
+                "to_name": "Specialty",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "getSpecialtiesInternal",
+                "to_name": "Specialty",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "Vet",
+                "to_name": "Specialty",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

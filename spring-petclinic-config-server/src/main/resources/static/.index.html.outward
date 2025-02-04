@@ -1,0 +1,11 @@
+{
+  "main facts about source code file [spring-petclinic-config-server/src/main/resources/static/index.html]": {
+    "00. file [spring-petclinic-config-server/src/main/resources/static/index.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 0
+      }
+    ]
+  }
+}

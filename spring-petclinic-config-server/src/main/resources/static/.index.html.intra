@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [spring-petclinic-config-server/src/main/resources/static/index.html]": {
+    "00. dependencies between elements defined in file [spring-petclinic-config-server/src/main/resources/static/index.html]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "HTML Pages",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "index.html",
+            "to_name": "http://localhost:8888/vets-service-docker.yml",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "HTML Pages",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "index.html",
+            "to_name": "application-default.yml",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "HTML Pages",
+            "to_type": "JavaScript HttpRequest Get Service",
+            "from_name": "index.html",
+            "to_name": "https://cloud.spring.io/spring-cloud-config",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 3
+      }
+    ]
+  }
+}

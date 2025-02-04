@@ -1,0 +1,85 @@
+{
+  "main facts about source code file [spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java]": {
+    "00. file [spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "name",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "getName",
+                "signature": "getName() return java.lang.String"
+              },
+              {
+                "name": "getId",
+                "signature": "getId() return java.lang.Integer"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "Specialty.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "Specialty",
+                "signature": "Specialty()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "Specialty",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "Specialty",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

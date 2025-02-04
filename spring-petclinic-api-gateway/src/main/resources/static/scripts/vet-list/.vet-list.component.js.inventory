@@ -1,0 +1,55 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.component.js]": {
+    "00. file [spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.component.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "vet-list.component.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Initialisation",
+            "elements": [
+              {
+                "name": "vet-list.component.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "vet-list.component.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "AngularJS Controller",
+            "elements": [
+              {
+                "name": "vetList",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

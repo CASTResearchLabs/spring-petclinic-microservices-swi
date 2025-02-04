@@ -1,0 +1,70 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.controller.js]": {
+    "00. file [spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.controller.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "then_PARAM_1",
+                "signature": ""
+              },
+              {
+                "name": "controller_PARAM_2_2",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "owner-list.controller.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "AngularJS GET http service",
+            "elements": [
+              {
+                "name": "api/customer/owners",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "owner-list.controller.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "AngularJS Controller",
+            "elements": [
+              {
+                "name": "OwnerListController",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.controller.js]": {
+    "00. file [spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.controller.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 4,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "submit",
+                "signature": ""
+              },
+              {
+                "name": "controller_PARAM_2_5",
+                "signature": ""
+              },
+              {
+                "name": "then_PARAM_1",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "visits.controller.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "AngularJS POST http service",
+            "elements": [
+              {
+                "name": "api/visit/owners/{}/pets/{}/visits/{}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "AngularJS GET http service",
+            "elements": [
+              {
+                "name": "api/visit/owners/{}/pets/{}/visits",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "visits.controller.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "AngularJS Model function",
+            "elements": [
+              {
+                "name": "submit",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "AngularJS Controller",
+            "elements": [
+              {
+                "name": "VisitsController",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

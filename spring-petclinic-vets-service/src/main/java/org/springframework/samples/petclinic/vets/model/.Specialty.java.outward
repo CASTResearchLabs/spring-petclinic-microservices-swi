@@ -1,0 +1,11 @@
+{
+  "main facts about source code file [spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java]": {
+    "00. file [spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java] defines elements relying on elements defined following source files": [
+      {
+        "files": [],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 0
+      }
+    ]
+  }
+}

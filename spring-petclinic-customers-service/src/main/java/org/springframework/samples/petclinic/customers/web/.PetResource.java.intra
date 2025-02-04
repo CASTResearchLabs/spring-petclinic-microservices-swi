@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java]": {
+    "00. dependencies between elements defined in file [spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "findPetById",
+            "to_name": "findPetById$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "processCreationForm",
+            "to_name": "processCreationForm$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "findPet",
+            "to_name": "findPetById",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "processUpdateForm",
+            "to_name": "findPetById",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "findPetById$lambda$0",
+            "to_name": "findPetById",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Method",
+            "from_name": "owners/{}/pets/{}/",
+            "to_name": "findPet",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "processUpdateForm",
+            "to_name": "save",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "processCreationForm",
+            "to_name": "save",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Put Operation",
+            "to_type": "Java Method",
+            "from_name": "owners/{}/pets/{}/",
+            "to_name": "processUpdateForm",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Post Operation",
+            "to_type": "Java Method",
+            "from_name": "owners/{}/pets/",
+            "to_name": "processCreationForm",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "processCreationForm$lambda$0",
+            "to_name": "processCreationForm",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Method",
+            "from_name": "petTypes/",
+            "to_name": "getPetTypes",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Class",
+            "from_name": "owners/{}/pets/{}/",
+            "to_name": "PetResource",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Class",
+            "from_name": "petTypes/",
+            "to_name": "PetResource",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Put Operation",
+            "to_type": "Java Class",
+            "from_name": "owners/{}/pets/{}/",
+            "to_name": "PetResource",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 17
+      }
+    ]
+  }
+}

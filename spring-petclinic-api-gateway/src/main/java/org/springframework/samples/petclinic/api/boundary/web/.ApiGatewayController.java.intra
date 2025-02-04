@@ -1,0 +1,89 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java]": {
+    "00. dependencies between elements defined in file [spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Instantiated Constructor",
+            "from_name": "emptyVisitsForPets",
+            "to_name": "Visits\u003cVisits\u003e",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Lambda Expression",
+            "from_name": "addVisitsToOwner$lambda$0",
+            "to_name": "addVisitsToOwner$lambda$0$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "addVisitsToOwner",
+            "to_name": "addVisitsToOwner$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Lambda Expression",
+            "from_name": "getOwnerDetails$lambda$0",
+            "to_name": "getOwnerDetails$lambda$0$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "getOwnerDetails",
+            "to_name": "getOwnerDetails$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "getOwnerDetails$lambda$0",
+            "to_name": "addVisitsToOwner",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "getOwnerDetails",
+            "to_name": "addVisitsToOwner",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "addVisitsToOwner$lambda$0",
+            "to_name": "addVisitsToOwner",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Method",
+            "from_name": "api/gateway/owners/{}/",
+            "to_name": "getOwnerDetails",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Class",
+            "from_name": "api/gateway/owners/{}/",
+            "to_name": "ApiGatewayController",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "",
+            "to_type": "Java Class",
+            "from_name": "/api/gateway",
+            "to_name": "ApiGatewayController",
+            "calling_type": "PROTOTYPE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 11
+      }
+    ]
+  }
+}

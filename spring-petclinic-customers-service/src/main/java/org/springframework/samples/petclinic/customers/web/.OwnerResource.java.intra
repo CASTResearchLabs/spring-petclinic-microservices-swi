@@ -1,0 +1,89 @@
+{
+  "main facts about source code file [spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java]": {
+    "00. dependencies between elements defined in file [spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "updateOwner",
+            "to_name": "updateOwner$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Put Operation",
+            "to_type": "Java Method",
+            "from_name": "owners/{}/",
+            "to_name": "updateOwner",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "updateOwner$lambda$0",
+            "to_name": "updateOwner",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Method",
+            "from_name": "owners/",
+            "to_name": "findAll",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Method",
+            "from_name": "owners/{}/",
+            "to_name": "findOwner",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Post Operation",
+            "to_type": "Java Method",
+            "from_name": "owners/",
+            "to_name": "createOwner",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Class",
+            "from_name": "owners/",
+            "to_name": "OwnerResource",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Class",
+            "from_name": "owners/{}/",
+            "to_name": "OwnerResource",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Put Operation",
+            "to_type": "Java Class",
+            "from_name": "owners/{}/",
+            "to_name": "OwnerResource",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Post Operation",
+            "to_type": "Java Class",
+            "from_name": "owners/",
+            "to_name": "OwnerResource",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "",
+            "to_type": "Java Class",
+            "from_name": "/owners",
+            "to_name": "OwnerResource",
+            "calling_type": "PROTOTYPE"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 11
+      }
+    ]
+  }
+}

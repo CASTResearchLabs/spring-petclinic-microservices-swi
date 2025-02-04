@@ -1,0 +1,11 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.js]": {
+    "00. file [spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 0
+      }
+    ]
+  }
+}

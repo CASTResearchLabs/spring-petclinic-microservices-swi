@@ -1,0 +1,26 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.template.html]": {
+    "00. file [spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.template.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "AngularJS Controller",
+                "from_name": "vet-list.template.html",
+                "to_name": "VetListController",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 1,
+            "to_file": "spring-petclinic-api-gateway/src/main/resources/static/scripts/vet-list/vet-list.controller.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "main facts about source code file [spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java]": {
+    "00. file [spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "nb_elements": 7,
+            "comment": "elements list is truncated to first 5 items",
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "addSpecialty",
+                "signature": "addSpecialty(org.springframework.samples.petclinic.vets.model.Specialty) return void"
+              },
+              {
+                "name": "getNrOfSpecialties",
+                "signature": "getNrOfSpecialties() return int"
+              },
+              {
+                "name": "getSpecialties",
+                "signature": "getSpecialties() return java.util.List.List\u003corg.springframework.samples.petclinic.vets.model.Specialty\u003e"
+              },
+              {
+                "name": "getSpecialtiesInternal",
+                "signature": "getSpecialtiesInternal() return java.util.Set.Set\u003corg.springframework.samples.petclinic.vets.model.Specialty\u003e"
+              },
+              {
+                "name": "getLastName",
+                "signature": "getLastName() return java.lang.String"
+              }
+            ]
+          },
+          {
+            "nb_elements": 4,
+            "comment": "",
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "specialties",
+                "signature": ""
+              },
+              {
+                "name": "lastName",
+                "signature": ""
+              },
+              {
+                "name": "firstName",
+                "signature": ""
+              },
+              {
+                "name": "id",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "",
+            "elements": [
+              {
+                "name": "Vet.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "Vet",
+                "signature": "Vet()"
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "Vet",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "nb_elements": 1,
+            "comment": "",
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "Vet",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

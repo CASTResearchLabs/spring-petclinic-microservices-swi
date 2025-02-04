@@ -1,0 +1,11 @@
+{
+  "main facts about source code file [spring-petclinic-customers-service/src/main/resources/db/mysql/schema.sql]": {
+    "00. file [spring-petclinic-customers-service/src/main/resources/db/mysql/schema.sql] defines elements relying on elements defined following source files": [
+      {
+        "files": [],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 0
+      }
+    ]
+  }
+}

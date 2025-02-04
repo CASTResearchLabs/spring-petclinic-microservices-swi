@@ -1,0 +1,19 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.component.js]": {
+    "00. dependencies between elements defined in file [spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.component.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript Initialisation",
+            "from_name": "visits.component.js",
+            "to_name": "visits.component.js",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "",
+        "nb_calls_between_elements": 1
+      }
+    ]
+  }
+}

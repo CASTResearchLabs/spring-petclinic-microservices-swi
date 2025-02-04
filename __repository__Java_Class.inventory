@@ -7,6 +7,7 @@
           "signature": "",
           "name": "Owner",
           "nb_callers": 8,
+          "used_in_graphs": 5,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -17,7 +18,6 @@
               "value": "6"
             }
           ],
-          "used_in_graphs": 5,
           "nb_callees": 8
         },
         {
@@ -25,6 +25,7 @@
           "signature": "",
           "name": "PetResource",
           "nb_callers": 5,
+          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -35,7 +36,6 @@
               "value": "7"
             }
           ],
-          "used_in_graphs": 0,
           "nb_callees": 8
         },
         {
@@ -43,6 +43,7 @@
           "signature": "",
           "name": "Vet",
           "nb_callers": 3,
+          "used_in_graphs": 2,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -53,7 +54,6 @@
               "value": "6"
             }
           ],
-          "used_in_graphs": 2,
           "nb_callees": 7
         },
         {
@@ -61,6 +61,7 @@
           "signature": "",
           "name": "Pet",
           "nb_callers": 7,
+          "used_in_graphs": 2,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -71,7 +72,6 @@
               "value": "5"
             }
           ],
-          "used_in_graphs": 2,
           "nb_callees": 3
         },
         {
@@ -79,6 +79,7 @@
           "signature": "",
           "name": "OwnerDetails",
           "nb_callers": 5,
+          "used_in_graphs": 2,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -89,7 +90,6 @@
               "value": "4"
             }
           ],
-          "used_in_graphs": 2,
           "nb_callees": 4
         },
         {
@@ -97,6 +97,7 @@
           "signature": "",
           "name": "OwnerResource",
           "nb_callers": 5,
+          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -107,7 +108,6 @@
               "value": "8"
             }
           ],
-          "used_in_graphs": 0,
           "nb_callees": 5
         },
         {
@@ -115,6 +115,7 @@
           "signature": "",
           "name": "ApiGatewayController",
           "nb_callers": 2,
+          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -125,7 +126,6 @@
               "value": "8"
             }
           ],
-          "used_in_graphs": 0,
           "nb_callees": 9
         },
         {
@@ -133,6 +133,7 @@
           "signature": "",
           "name": "Visit",
           "nb_callers": 7,
+          "used_in_graphs": 3,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -143,7 +144,6 @@
               "value": "4"
             }
           ],
-          "used_in_graphs": 3,
           "nb_callees": 1
         },
         {
@@ -151,6 +151,7 @@
           "signature": "",
           "name": "VisitsServiceClient",
           "nb_callers": 1,
+          "used_in_graphs": 2,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -161,7 +162,6 @@
               "value": "8"
             }
           ],
-          "used_in_graphs": 2,
           "nb_callees": 8
         },
         {
@@ -169,6 +169,7 @@
           "signature": "",
           "name": "VisitResource",
           "nb_callers": 4,
+          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -179,7 +180,6 @@
               "value": "8"
             }
           ],
-          "used_in_graphs": 0,
           "nb_callees": 2
         },
         {
@@ -187,6 +187,7 @@
           "signature": "",
           "name": "PetDetails",
           "nb_callers": 4,
+          "used_in_graphs": 2,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -197,7 +198,6 @@
               "value": "3"
             }
           ],
-          "used_in_graphs": 2,
           "nb_callees": 2
         },
         {
@@ -205,6 +205,7 @@
           "signature": "",
           "name": "PetType",
           "nb_callers": 6,
+          "used_in_graphs": 2,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -215,7 +216,6 @@
               "value": "3"
             }
           ],
-          "used_in_graphs": 2,
           "nb_callees": 0
         },
         {
@@ -223,6 +223,7 @@
           "signature": "",
           "name": "Visits",
           "nb_callers": 5,
+          "used_in_graphs": 2,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -233,7 +234,6 @@
               "value": "2"
             }
           ],
-          "used_in_graphs": 2,
           "nb_callees": 2
         },
         {
@@ -241,6 +241,7 @@
           "signature": "",
           "name": "CustomersServiceClient",
           "nb_callers": 1,
+          "used_in_graphs": 2,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -251,7 +252,6 @@
               "value": "5"
             }
           ],
-          "used_in_graphs": 2,
           "nb_callees": 4
         },
         {
@@ -259,6 +259,7 @@
           "signature": "",
           "name": "VetResource",
           "nb_callers": 2,
+          "used_in_graphs": 0,
           "main_properties": [
             {
               "property": "Number of code lines",
@@ -269,13 +270,11 @@
               "value": "5"
             }
           ],
-          "used_in_graphs": 0,
           "nb_callees": 2
         }
       ],
       "total_nb": 61,
       "elements_list_comment": "Java Class element list is truncated to first 15 items"
-    },
-    "Misc. Information": "1. all detail lists are truncated to show the first [15] entries only.\n2. all nested detail lists are truncated to show the first [5] entries only."
+    }
   }
 }

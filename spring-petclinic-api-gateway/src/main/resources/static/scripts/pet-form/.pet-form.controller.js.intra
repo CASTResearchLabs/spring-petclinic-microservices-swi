@@ -1,0 +1,117 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js]": {
+    "00. dependencies between elements defined in file [spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js]": [
+      {
+        "calls_between_elements": [
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "then_PARAM_1",
+            "to_name": "then_PARAM_1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "AngularJS Model function",
+            "to_type": "AngularJS POST http service",
+            "from_name": "submit",
+            "to_name": "api/customer/owners/{}/pets/{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "AngularJS POST http service",
+            "from_name": "submit",
+            "to_name": "api/customer/owners/{}/pets/{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "AngularJS GET http service",
+            "from_name": "then_PARAM_1",
+            "to_name": "api/customer/owners/{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "AngularJS GET http service",
+            "from_name": "then_PARAM_1",
+            "to_name": "api/customer/owners/{}/pets/{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "AngularJS GET http service",
+            "from_name": "controller_PARAM_2_4",
+            "to_name": "api/customer/petTypes",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "AngularJS Controller",
+            "to_type": "AngularJS GET http service",
+            "from_name": "PetFormController",
+            "to_name": "api/customer/petTypes",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "AngularJS Model function",
+            "to_type": "AngularJS PUT http service",
+            "from_name": "submit",
+            "to_name": "api/customer/owners/{}/pets/{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "AngularJS PUT http service",
+            "from_name": "submit",
+            "to_name": "api/customer/owners/{}/pets/{}",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "AngularJS Model function",
+            "to_type": "JavaScript function",
+            "from_name": "submit",
+            "to_name": "req_then_PARAM_1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "submit",
+            "to_name": "req_then_PARAM_1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "controller_PARAM_2_4",
+            "to_name": "then_PARAM_1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "AngularJS Controller",
+            "to_type": "JavaScript function",
+            "from_name": "PetFormController",
+            "to_name": "then_PARAM_1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "AngularJS Controller",
+            "to_type": "JavaScript Files",
+            "from_name": "PetFormController",
+            "to_name": "pet-form.controller.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "AngularJS Controller",
+            "from_name": "pet-form.controller.js",
+            "to_name": "PetFormController",
+            "calling_type": "CALL"
+          }
+        ],
+        "calls_between_elements_list_comment": "calls_between_elements list is truncated to first 15 items",
+        "nb_calls_between_elements": 18
+      }
+    ]
+  }
+}

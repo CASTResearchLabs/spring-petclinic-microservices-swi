@@ -1,0 +1,11 @@
+{
+  "main facts about source code file [spring-petclinic-customers-service/src/main/resources/db/hsqldb/schema.sql]": {
+    "00. source files defining elements dependent on elements defined in file [spring-petclinic-customers-service/src/main/resources/db/hsqldb/schema.sql]": [
+      {
+        "files": [],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 0
+      }
+    ]
+  }
+}

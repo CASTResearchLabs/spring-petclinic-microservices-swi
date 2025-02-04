@@ -1,0 +1,119 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js]": {
+    "00. file [spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 7,
+            "type": "JavaScript function",
+            "elements": [
+              {
+                "name": "then_PARAM_1",
+                "signature": ""
+              },
+              {
+                "name": "controller_PARAM_2_4",
+                "signature": ""
+              },
+              {
+                "name": "req_then_PARAM_1",
+                "signature": ""
+              },
+              {
+                "name": "submit",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "AngularJS GET http service",
+            "elements": [
+              {
+                "name": "api/customer/owners/{}",
+                "signature": ""
+              },
+              {
+                "name": "api/customer/owners/{}/pets/{}",
+                "signature": ""
+              },
+              {
+                "name": "api/customer/petTypes",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "pet-form.controller.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "AngularJS POST http service",
+            "elements": [
+              {
+                "name": "api/customer/owners/{}/pets/{}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "AngularJS PUT http service",
+            "elements": [
+              {
+                "name": "api/customer/owners/{}/pets/{}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JavaScript Files",
+            "elements": [
+              {
+                "name": "pet-form.controller.js",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "AngularJS Model function",
+            "elements": [
+              {
+                "name": "submit",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "AngularJS Controller",
+            "elements": [
+              {
+                "name": "PetFormController",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "main facts about source code file [spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java]": {
+    "00. file [spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 10,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "toString",
+                "signature": "toString() return java.lang.String"
+              },
+              {
+                "name": "addPet",
+                "signature": "addPet(org.springframework.samples.petclinic.customers.model.Pet) return void"
+              },
+              {
+                "name": "getPets",
+                "signature": "getPets() return java.util.List.List\u003corg.springframework.samples.petclinic.customers.model.Pet\u003e"
+              },
+              {
+                "name": "getPetsInternal",
+                "signature": "getPetsInternal() return java.util.Set.Set\u003corg.springframework.samples.petclinic.customers.model.Pet\u003e"
+              },
+              {
+                "name": "getTelephone",
+                "signature": "getTelephone() return java.lang.String"
+              }
+            ]
+          },
+          {
+            "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 7,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "pets",
+                "signature": ""
+              },
+              {
+                "name": "telephone",
+                "signature": ""
+              },
+              {
+                "name": "city",
+                "signature": ""
+              },
+              {
+                "name": "address",
+                "signature": ""
+              },
+              {
+                "name": "lastName",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "Owner.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "Owner",
+                "signature": "Owner()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "JPA Entity",
+            "elements": [
+              {
+                "name": "Owner",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class",
+            "elements": [
+              {
+                "name": "Owner",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

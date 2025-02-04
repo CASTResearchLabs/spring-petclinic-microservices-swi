@@ -1,0 +1,123 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java]": {
+    "00. file [spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 5,
+            "type": "Java Method",
+            "elements": [
+              {
+                "name": "defaultCustomizer",
+                "signature": "defaultCustomizer() return org.springframework.cloud.client.circuitbreaker.Customizer.Customizer\u003corg.springframework.cloud.circuitbreaker.resilience4j.ReactiveResilience4JCircuitBreakerFactory\u003e"
+              },
+              {
+                "name": "routerFunction",
+                "signature": "routerFunction() return org.springframework.web.reactive.function.server.RouterFunction.RouterFunction\u003c? extends\u003e"
+              },
+              {
+                "name": "loadBalancedWebClientBuilder",
+                "signature": "loadBalancedWebClientBuilder() return org.springframework.web.reactive.function.client.WebClient.Builder"
+              },
+              {
+                "name": "loadBalancedRestTemplate",
+                "signature": "loadBalancedRestTemplate() return org.springframework.web.client.RestTemplate"
+              },
+              {
+                "name": "main",
+                "signature": "main(java.lang.String[]) return void"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "Java Lambda Expression",
+            "elements": [
+              {
+                "name": "defaultCustomizer$lambda$0$lambda$0",
+                "signature": "defaultCustomizer$lambda$0$lambda$0(java.lang.String) return R"
+              },
+              {
+                "name": "defaultCustomizer$lambda$0",
+                "signature": "defaultCustomizer$lambda$0(org.springframework.cloud.circuitbreaker.resilience4j.ReactiveResilience4JCircuitBreakerFactory) return void"
+              },
+              {
+                "name": "routerFunction$lambda$0",
+                "signature": "routerFunction$lambda$0(org.springframework.web.reactive.function.server.ServerRequest) return reactor.core.publisher.Mono"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Field",
+            "elements": [
+              {
+                "name": "indexHtml",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Spring WebFlux Get Operation",
+            "elements": [
+              {
+                "name": "/",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "ApiGatewayApplication.java",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Constructor",
+            "elements": [
+              {
+                "name": "ApiGatewayApplication",
+                "signature": "ApiGatewayApplication()"
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Spring WebFlux Any Operation",
+            "elements": [
+              {
+                "name": "/{}",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "Java Class Batch",
+            "elements": [
+              {
+                "name": "ApiGatewayApplication",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

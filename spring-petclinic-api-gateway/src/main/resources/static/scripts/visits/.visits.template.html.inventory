@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.template.html]": {
+    "00. file [spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.template.html] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "visits.template.html",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "HTML Pages",
+            "elements": [
+              {
+                "name": "visits.template.html",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

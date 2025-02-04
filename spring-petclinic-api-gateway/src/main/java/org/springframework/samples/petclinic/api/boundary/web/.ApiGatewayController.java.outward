@@ -1,0 +1,173 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java]": {
+    "00. file [spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Lambda Expression",
+                "to_type": "Java Method",
+                "from_name": "addVisitsToOwner$lambda$0",
+                "to_name": "getPets",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "addVisitsToOwner",
+                "to_name": "getPets",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Lambda Expression",
+                "to_type": "Java Method",
+                "from_name": "getOwnerDetails$lambda$0",
+                "to_name": "getPetIds",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getOwnerDetails",
+                "to_name": "getPetIds",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ApiGatewayController",
+                "to_name": "OwnerDetails",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "to_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/OwnerDetails.java",
+            "nb_calls_between_elements": 8
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Lambda Expression",
+                "to_type": "Java Method",
+                "from_name": "addVisitsToOwner$lambda$0$lambda$0",
+                "to_name": "getVisits",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Lambda Expression",
+                "to_type": "Java Method",
+                "from_name": "addVisitsToOwner$lambda$0",
+                "to_name": "getVisits",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "addVisitsToOwner",
+                "to_name": "getVisits",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ApiGatewayController",
+                "to_name": "PetDetails",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetDetails.java",
+            "nb_calls_between_elements": 4
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ApiGatewayController",
+                "to_name": "Visits",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "emptyVisitsForPets",
+                "to_name": "Visits",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Class",
+                "from_name": "addVisitsToOwner",
+                "to_name": "Visits",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ApiGatewayController",
+                "to_name": "Visits",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "to_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/Visits.java",
+            "nb_calls_between_elements": 4
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Lambda Expression",
+                "to_type": "Java Method",
+                "from_name": "getOwnerDetails$lambda$0",
+                "to_name": "getVisitsForPets",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getOwnerDetails",
+                "to_name": "getVisitsForPets",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ApiGatewayController",
+                "to_name": "VisitsServiceClient",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java",
+            "nb_calls_between_elements": 3
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Java Method",
+                "from_name": "getOwnerDetails",
+                "to_name": "getOwner",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "ApiGatewayController",
+                "to_name": "CustomersServiceClient",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "",
+            "to_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java",
+            "nb_calls_between_elements": 2
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 5
+      }
+    ]
+  }
+}

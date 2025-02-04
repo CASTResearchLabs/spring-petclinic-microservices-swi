@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.template.html]": {
+    "00. source files defining elements dependent on elements defined in file [spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.template.html]": [
+      {
+        "files": [
+          {
+            "from_file": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.component.js",
+            "calls_between_elements": [
+              {
+                "from_type": "JavaScript Initialisation",
+                "to_type": "HTML Pages",
+                "from_name": "owner-form.component.js",
+                "to_name": "owner-form.template.html",
+                "calling_type": "USE"
+              },
+              {
+                "from_type": "JavaScript Files",
+                "to_type": "HTML Pages",
+                "from_name": "owner-form.component.js",
+                "to_name": "owner-form.template.html",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

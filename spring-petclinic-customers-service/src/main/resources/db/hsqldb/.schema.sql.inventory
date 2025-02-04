@@ -1,0 +1,56 @@
+{
+  "main facts about source code file [spring-petclinic-customers-service/src/main/resources/db/hsqldb/schema.sql]": {
+    "00. file [spring-petclinic-customers-service/src/main/resources/db/hsqldb/schema.sql] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "MySQL Index",
+            "elements": [
+              {
+                "name": "pets_name",
+                "signature": ""
+              },
+              {
+                "name": "types_name",
+                "signature": ""
+              },
+              {
+                "name": "owners_last_name",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "MySQL Foreign Key",
+            "elements": [
+              {
+                "name": "fk_pets_owners",
+                "signature": ""
+              },
+              {
+                "name": "fk_pets_types",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "schema.sql",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}

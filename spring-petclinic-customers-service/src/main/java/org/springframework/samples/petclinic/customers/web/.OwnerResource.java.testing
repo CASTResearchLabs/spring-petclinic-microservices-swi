@@ -1,0 +1,33 @@
+{
+  "main facts about source code file [spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java]": {
+    "00. data elements and user transaction / API endpoint built on elements defined in file [spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java]": [
+      {
+        "entities_to_test_list_comment": "",
+        "nb_entities_to_test": 5,
+        "entities_to_test": [
+          {
+            "name": "owner-list.template.html",
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.template.html"
+          },
+          {
+            "name": "index.html",
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/index.html"
+          },
+          {
+            "name": "owner-details.template.html",
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.template.html"
+          },
+          {
+            "name": "owner-form.template.html",
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-form/owner-form.template.html"
+          },
+          {
+            "name": "pet-form.template.html",
+            "full_name": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.template.html"
+          }
+        ],
+        "type_of_entity_to_test": "user transaction / API endpoint"
+      }
+    ]
+  }
+}

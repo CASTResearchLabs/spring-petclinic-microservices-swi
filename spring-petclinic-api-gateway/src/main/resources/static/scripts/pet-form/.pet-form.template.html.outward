@@ -1,0 +1,47 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.template.html]": {
+    "00. file [spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.template.html] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "HTML Pages",
+                "to_type": "JavaScript Files",
+                "from_name": "pet-form.template.html",
+                "to_name": "pet-form.controller.js",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "AngularJS Model function",
+                "from_name": "pet-form.template.html",
+                "to_name": "submit",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "AngularJS Controller",
+                "from_name": "pet-form.template.html",
+                "to_name": "PetFormController",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "HTML Pages",
+                "to_type": "AngularJS Controller",
+                "from_name": "pet-form.template.html",
+                "to_name": "PetFormController",
+                "calling_type": "USE"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

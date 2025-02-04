@@ -1,0 +1,54 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.controller.js]": {
+    "00. file [spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.controller.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "AngularJS GET http service",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "api/visit/owners/{}/pets/{}/visits",
+                "to_name": "owners/{}/pets/{}/visits/",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "AngularJS Controller",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "VisitsController",
+                "to_name": "owners/{}/pets/{}/visits/",
+                "calling_type": "GET"
+              },
+              {
+                "from_type": "AngularJS POST http service",
+                "to_type": "Spring MVC Post Operation",
+                "from_name": "api/visit/owners/{}/pets/{}/visits/{}",
+                "to_name": "owners/{}/pets/{}/visits/",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript Files",
+                "to_type": "Spring MVC Post Operation",
+                "from_name": "visits.controller.js",
+                "to_name": "owners/{}/pets/{}/visits/",
+                "calling_type": "POST"
+              },
+              {
+                "from_type": "AngularJS Model function",
+                "to_type": "Spring MVC Post Operation",
+                "from_name": "submit",
+                "to_name": "owners/{}/pets/{}/visits/",
+                "calling_type": "POST"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 6,
+            "to_file": "spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 1
+      }
+    ]
+  }
+}

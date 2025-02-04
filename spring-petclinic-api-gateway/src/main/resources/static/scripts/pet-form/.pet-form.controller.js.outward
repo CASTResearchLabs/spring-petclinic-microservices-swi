@@ -1,0 +1,89 @@
+{
+  "main facts about source code file [spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js]": {
+    "00. file [spring-petclinic-api-gateway/src/main/resources/static/scripts/pet-form/pet-form.controller.js] defines elements relying on elements defined following source files": [
+      {
+        "files": [
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "AngularJS GET http service",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "api/customer/owners/{}/pets/{}",
+                "to_name": "owners/{}/pets/{}/",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "then_PARAM_1",
+                "to_name": "owners/{}/pets/{}/",
+                "calling_type": "GET"
+              },
+              {
+                "from_type": "JavaScript Files",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "pet-form.controller.js",
+                "to_name": "owners/{}/pets/{}/",
+                "calling_type": "GET"
+              },
+              {
+                "from_type": "AngularJS Controller",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "PetFormController",
+                "to_name": "owners/{}/pets/{}/",
+                "calling_type": "GET"
+              },
+              {
+                "from_type": "AngularJS GET http service",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "api/customer/petTypes",
+                "to_name": "petTypes/",
+                "calling_type": "CALL"
+              }
+            ],
+            "comment": "calls_between_elements list is truncated to first 5 items",
+            "nb_calls_between_elements": 14,
+            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "AngularJS GET http service",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "api/customer/owners/{}",
+                "to_name": "owners/{}/",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "JavaScript function",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "then_PARAM_1",
+                "to_name": "owners/{}/",
+                "calling_type": "GET"
+              },
+              {
+                "from_type": "JavaScript Files",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "pet-form.controller.js",
+                "to_name": "owners/{}/",
+                "calling_type": "GET"
+              },
+              {
+                "from_type": "AngularJS Controller",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "PetFormController",
+                "to_name": "owners/{}/",
+                "calling_type": "GET"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 4,
+            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+          }
+        ],
+        "files_list_comment": "",
+        "nb_files_with_calling_elements": 2
+      }
+    ]
+  }
+}

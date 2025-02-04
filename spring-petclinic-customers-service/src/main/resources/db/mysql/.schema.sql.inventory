@@ -1,0 +1,71 @@
+{
+  "main facts about source code file [spring-petclinic-customers-service/src/main/resources/db/mysql/schema.sql]": {
+    "00. file [spring-petclinic-customers-service/src/main/resources/db/mysql/schema.sql] defines following code elements": [
+      {
+        "types": [
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "MySQL Index",
+            "elements": [
+              {
+                "name": "Index_pets",
+                "signature": ""
+              },
+              {
+                "name": "Index_owners",
+                "signature": ""
+              },
+              {
+                "name": "Index_types",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 3,
+            "type": "MySQL Unique Constraint",
+            "elements": [
+              {
+                "name": "PK_owners",
+                "signature": ""
+              },
+              {
+                "name": "PK_types",
+                "signature": ""
+              },
+              {
+                "name": "PK_pets",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 2,
+            "type": "MySQL Foreign Key",
+            "elements": [
+              {
+                "name": "FK_pets",
+                "signature": ""
+              }
+            ]
+          },
+          {
+            "comment": "",
+            "nb_elements": 1,
+            "type": "",
+            "elements": [
+              {
+                "name": "schema.sql",
+                "signature": ""
+              }
+            ]
+          }
+        ],
+        "files_list_comment": ""
+      }
+    ]
+  }
+}
