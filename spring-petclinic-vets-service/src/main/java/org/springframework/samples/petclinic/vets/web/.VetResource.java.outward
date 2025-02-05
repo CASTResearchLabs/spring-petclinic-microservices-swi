@@ -21,8 +21,8 @@
               }
             ],
             "comment": "",
-            "to_file": "spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java",
-            "nb_calls_between_elements": 2
+            "nb_calls_between_elements": 2,
+            "to_file": "spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java"
           }
         ],
         "files_list_comment": "",

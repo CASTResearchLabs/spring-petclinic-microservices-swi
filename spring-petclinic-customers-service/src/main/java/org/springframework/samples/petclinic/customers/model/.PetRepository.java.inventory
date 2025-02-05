@@ -4,8 +4,8 @@
       {
         "types": [
           {
-            "nb_elements": 2,
             "comment": "",
+            "nb_elements": 2,
             "type": "Spring Data JPQL Query",
             "elements": [
               {
@@ -19,8 +19,8 @@
             ]
           },
           {
-            "nb_elements": 2,
             "comment": "",
+            "nb_elements": 2,
             "type": "Java Method",
             "elements": [
               {
@@ -34,8 +34,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "",
             "elements": [
               {
@@ -45,8 +45,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "Java Interface",
             "elements": [
               {

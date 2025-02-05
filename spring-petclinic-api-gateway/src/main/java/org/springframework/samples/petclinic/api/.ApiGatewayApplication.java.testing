@@ -6,12 +6,12 @@
         "nb_entities_to_test": 2,
         "entities_to_test": [
           {
-            "name": "/",
-            "full_name": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java.CAST_SpringWebFlux_GetOperation./"
-          },
-          {
             "name": "/{}",
             "full_name": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java.CAST_SpringWebFlux_AnyOperation./{}"
+          },
+          {
+            "name": "/",
+            "full_name": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java.CAST_SpringWebFlux_GetOperation./"
           }
         ],
         "type_of_entity_to_test": "user transaction / API endpoint"

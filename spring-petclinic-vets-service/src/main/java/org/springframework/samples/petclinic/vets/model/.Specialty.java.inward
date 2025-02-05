@@ -4,37 +4,13 @@
       {
         "files": [
           {
-            "from_file": "spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java",
-            "calls_between_elements": [
+            "calling_types": [
               {
-                "from_type": "Java Field",
-                "to_type": "Java Class",
-                "from_name": "specialties",
-                "to_name": "Specialty",
-                "calling_type": "USE"
-              },
-              {
-                "from_type": "Java Method",
-                "to_type": "Java Class",
-                "from_name": "getSpecialties",
-                "to_name": "Specialty",
-                "calling_type": "USE"
-              },
-              {
-                "from_type": "Java Method",
-                "to_type": "Java Class",
-                "from_name": "getSpecialtiesInternal",
-                "to_name": "Specialty",
-                "calling_type": "USE"
-              },
-              {
-                "from_type": "Java Class",
-                "to_type": "Java Class",
-                "from_name": "Vet",
-                "to_name": "Specialty",
-                "calling_type": "USE"
+                "calling_type": "USE",
+                "nb_calls_between_elements": 1
               }
             ],
+            "from_file": "spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java",
             "comment": "",
             "nb_calls_between_elements": 4
           }

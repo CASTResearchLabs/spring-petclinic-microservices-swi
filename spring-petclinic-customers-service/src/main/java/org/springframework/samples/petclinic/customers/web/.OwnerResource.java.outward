@@ -7,20 +7,6 @@
             "calls_between_elements": [
               {
                 "from_type": "Java Method",
-                "to_type": "Java Constructor",
-                "from_name": "createOwner",
-                "to_name": "Owner",
-                "calling_type": "CALL"
-              },
-              {
-                "from_type": "Java Class",
-                "to_type": "Java Class",
-                "from_name": "OwnerResource",
-                "to_name": "Owner",
-                "calling_type": "CALL"
-              },
-              {
-                "from_type": "Java Method",
                 "to_type": "Java Class",
                 "from_name": "findAll",
                 "to_name": "Owner",
@@ -34,6 +20,20 @@
                 "calling_type": "USE"
               },
               {
+                "from_type": "Java Method",
+                "to_type": "Java Constructor",
+                "from_name": "createOwner",
+                "to_name": "Owner",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "OwnerResource",
+                "to_name": "Owner",
+                "calling_type": "CALL"
+              },
+              {
                 "from_type": "Java Class",
                 "to_type": "Java Class",
                 "from_name": "OwnerResource",
@@ -42,8 +42,8 @@
               }
             ],
             "comment": "",
-            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java",
-            "nb_calls_between_elements": 5
+            "nb_calls_between_elements": 5,
+            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
           },
           {
             "calls_between_elements": [
@@ -70,8 +70,8 @@
               }
             ],
             "comment": "",
-            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/ResourceNotFoundException.java",
-            "nb_calls_between_elements": 3
+            "nb_calls_between_elements": 3,
+            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/ResourceNotFoundException.java"
           },
           {
             "calls_between_elements": [
@@ -98,8 +98,8 @@
               }
             ],
             "comment": "",
-            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java",
-            "nb_calls_between_elements": 3
+            "nb_calls_between_elements": 3,
+            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java"
           }
         ],
         "files_list_comment": "",

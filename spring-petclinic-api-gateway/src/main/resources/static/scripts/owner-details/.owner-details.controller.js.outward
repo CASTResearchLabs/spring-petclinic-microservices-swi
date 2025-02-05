@@ -21,8 +21,8 @@
               }
             ],
             "comment": "",
-            "to_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java",
-            "nb_calls_between_elements": 2
+            "nb_calls_between_elements": 2,
+            "to_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java"
           }
         ],
         "files_list_comment": "",

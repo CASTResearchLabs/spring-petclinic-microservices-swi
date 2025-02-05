@@ -56,27 +56,6 @@
             "calls_between_elements": [
               {
                 "from_type": "Java Method",
-                "to_type": "Spring MVC Get Operation",
-                "from_name": "getVisitsForPets",
-                "to_name": "pets/visits/",
-                "calling_type": "GET"
-              },
-              {
-                "from_type": "Java Class",
-                "to_type": "Spring MVC Get Operation",
-                "from_name": "VisitsServiceClient",
-                "to_name": "pets/visits/",
-                "calling_type": "GET"
-              }
-            ],
-            "comment": "",
-            "nb_calls_between_elements": 2,
-            "to_file": "spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
-          },
-          {
-            "calls_between_elements": [
-              {
-                "from_type": "Java Method",
                 "to_type": "Java Class",
                 "from_name": "getVisitsForPets",
                 "to_name": "Visits",
@@ -93,6 +72,27 @@
             "comment": "",
             "nb_calls_between_elements": 2,
             "to_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/Visits.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "getVisitsForPets",
+                "to_name": "pets/visits/",
+                "calling_type": "GET"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "VisitsServiceClient",
+                "to_name": "pets/visits/",
+                "calling_type": "GET"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
           }
         ],
         "files_list_comment": "",

@@ -4,8 +4,8 @@
       {
         "types": [
           {
-            "nb_elements": 5,
             "comment": "",
+            "nb_elements": 5,
             "type": "Java Record Component",
             "elements": [
               {
@@ -31,8 +31,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "Java Record",
             "elements": [
               {
@@ -42,8 +42,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "",
             "elements": [
               {
@@ -53,8 +53,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "Java Constructor",
             "elements": [
               {

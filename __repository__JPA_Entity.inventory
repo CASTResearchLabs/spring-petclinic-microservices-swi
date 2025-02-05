@@ -7,10 +7,10 @@
           "signature": "",
           "name": "PetType",
           "nb_callers": 1,
-          "used_in_graphs": 0,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 0,
           "nb_callees": 1
         },
         {
@@ -18,10 +18,10 @@
           "signature": "",
           "name": "Visit",
           "nb_callers": 1,
-          "used_in_graphs": 0,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 0,
           "nb_callees": 1
         },
         {
@@ -29,10 +29,10 @@
           "signature": "",
           "name": "Owner",
           "nb_callers": 0,
-          "used_in_graphs": 0,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 0,
           "nb_callees": 0
         },
         {
@@ -40,10 +40,10 @@
           "signature": "",
           "name": "Pet",
           "nb_callers": 0,
-          "used_in_graphs": 0,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 0,
           "nb_callees": 0
         },
         {
@@ -51,10 +51,10 @@
           "signature": "",
           "name": "Specialty",
           "nb_callers": 0,
-          "used_in_graphs": 0,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 0,
           "nb_callees": 0
         },
         {
@@ -62,10 +62,10 @@
           "signature": "",
           "name": "Vet",
           "nb_callers": 0,
-          "used_in_graphs": 0,
           "main_properties": [
             {}
           ],
+          "used_in_graphs": 0,
           "nb_callees": 0
         }
       ],

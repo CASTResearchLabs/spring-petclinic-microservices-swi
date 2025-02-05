@@ -4,17 +4,73 @@
       {
         "calls_between_elements": [
           {
-            "from_type": "Java Method",
-            "to_type": "Java Lambda Expression",
-            "from_name": "findPetById",
-            "to_name": "findPetById$lambda$0",
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Method",
+            "from_name": "owners/{}/pets/{}/",
+            "to_name": "findPet",
             "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Class",
+            "from_name": "owners/{}/pets/{}/",
+            "to_name": "PetResource",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Method",
+            "from_name": "petTypes/",
+            "to_name": "getPetTypes",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Get Operation",
+            "to_type": "Java Class",
+            "from_name": "petTypes/",
+            "to_name": "PetResource",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Put Operation",
+            "to_type": "Java Method",
+            "from_name": "owners/{}/pets/{}/",
+            "to_name": "processUpdateForm",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Put Operation",
+            "to_type": "Java Class",
+            "from_name": "owners/{}/pets/{}/",
+            "to_name": "PetResource",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "findPetById$lambda$0",
+            "to_name": "findPetById",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Method",
+            "from_name": "processCreationForm$lambda$0",
+            "to_name": "processCreationForm",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "",
+            "to_type": "Java Class",
+            "from_name": "/",
+            "to_name": "PetResource",
+            "calling_type": "PROTOTYPE"
           },
           {
             "from_type": "Java Method",
             "to_type": "Java Lambda Expression",
-            "from_name": "processCreationForm",
-            "to_name": "processCreationForm$lambda$0",
+            "from_name": "findPetById",
+            "to_name": "findPetById$lambda$0",
             "calling_type": "CALL"
           },
           {
@@ -32,20 +88,6 @@
             "calling_type": "CALL"
           },
           {
-            "from_type": "Java Lambda Expression",
-            "to_type": "Java Method",
-            "from_name": "findPetById$lambda$0",
-            "to_name": "findPetById",
-            "calling_type": "READ"
-          },
-          {
-            "from_type": "Spring MVC Get Operation",
-            "to_type": "Java Method",
-            "from_name": "owners/{}/pets/{}/",
-            "to_name": "findPet",
-            "calling_type": "CALL"
-          },
-          {
             "from_type": "Java Method",
             "to_type": "Java Method",
             "from_name": "processUpdateForm",
@@ -54,58 +96,16 @@
           },
           {
             "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "processCreationForm",
+            "to_name": "processCreationForm$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
             "to_type": "Java Method",
             "from_name": "processCreationForm",
             "to_name": "save",
-            "calling_type": "CALL"
-          },
-          {
-            "from_type": "Spring MVC Put Operation",
-            "to_type": "Java Method",
-            "from_name": "owners/{}/pets/{}/",
-            "to_name": "processUpdateForm",
-            "calling_type": "CALL"
-          },
-          {
-            "from_type": "Spring MVC Post Operation",
-            "to_type": "Java Method",
-            "from_name": "owners/{}/pets/",
-            "to_name": "processCreationForm",
-            "calling_type": "CALL"
-          },
-          {
-            "from_type": "Java Lambda Expression",
-            "to_type": "Java Method",
-            "from_name": "processCreationForm$lambda$0",
-            "to_name": "processCreationForm",
-            "calling_type": "READ"
-          },
-          {
-            "from_type": "Spring MVC Get Operation",
-            "to_type": "Java Method",
-            "from_name": "petTypes/",
-            "to_name": "getPetTypes",
-            "calling_type": "CALL"
-          },
-          {
-            "from_type": "Spring MVC Get Operation",
-            "to_type": "Java Class",
-            "from_name": "owners/{}/pets/{}/",
-            "to_name": "PetResource",
-            "calling_type": "CALL"
-          },
-          {
-            "from_type": "Spring MVC Get Operation",
-            "to_type": "Java Class",
-            "from_name": "petTypes/",
-            "to_name": "PetResource",
-            "calling_type": "CALL"
-          },
-          {
-            "from_type": "Spring MVC Put Operation",
-            "to_type": "Java Class",
-            "from_name": "owners/{}/pets/{}/",
-            "to_name": "PetResource",
             "calling_type": "CALL"
           }
         ],

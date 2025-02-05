@@ -4,37 +4,24 @@
       {
         "files": [
           {
-            "from_file": "spring-petclinic-api-gateway/src/main/resources/static/index.html",
-            "calls_between_elements": [
+            "calling_types": [
               {
-                "from_type": "AngularJS Application",
-                "to_type": "AngularJS Controller",
-                "from_name": "index.html",
-                "to_name": "OwnerListController",
-                "calling_type": "CALL"
-              },
-              {
-                "from_type": "AngularJS Application",
-                "to_type": "JavaScript function",
-                "from_name": "index.html",
-                "to_name": "controller_PARAM_2_2",
-                "calling_type": "CALL"
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 2
               }
             ],
+            "from_file": "spring-petclinic-api-gateway/src/main/resources/static/index.html",
             "comment": "",
             "nb_calls_between_elements": 2
           },
           {
-            "from_file": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.template.html",
-            "calls_between_elements": [
+            "calling_types": [
               {
-                "from_type": "HTML Pages",
-                "to_type": "AngularJS Controller",
-                "from_name": "owner-list.template.html",
-                "to_name": "OwnerListController",
-                "calling_type": "USE"
+                "calling_type": "USE",
+                "nb_calls_between_elements": 1
               }
             ],
+            "from_file": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-list/owner-list.template.html",
             "comment": "",
             "nb_calls_between_elements": 1
           }

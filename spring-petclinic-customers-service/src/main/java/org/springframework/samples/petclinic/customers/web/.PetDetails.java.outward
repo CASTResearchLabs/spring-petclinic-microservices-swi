@@ -6,6 +6,13 @@
           {
             "calls_between_elements": [
               {
+                "from_type": "Java Record",
+                "to_type": "Java Class",
+                "from_name": "PetDetails",
+                "to_name": "Pet",
+                "calling_type": "CALL"
+              },
+              {
                 "from_type": "Java Constructor",
                 "to_type": "Java Method",
                 "from_name": "PetDetails",
@@ -32,21 +39,21 @@
                 "from_name": "PetDetails",
                 "to_name": "getName",
                 "calling_type": "CALL"
-              },
-              {
-                "from_type": "Java Constructor",
-                "to_type": "Java Method",
-                "from_name": "PetDetails",
-                "to_name": "getId",
-                "calling_type": "CALL"
               }
             ],
             "comment": "calls_between_elements list is truncated to first 5 items",
-            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java",
-            "nb_calls_between_elements": 6
+            "nb_calls_between_elements": 6,
+            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
           },
           {
             "calls_between_elements": [
+              {
+                "from_type": "Java Record",
+                "to_type": "Java Class",
+                "from_name": "PetDetails",
+                "to_name": "Owner",
+                "calling_type": "CALL"
+              },
               {
                 "from_type": "Java Constructor",
                 "to_type": "Java Method",
@@ -60,18 +67,11 @@
                 "from_name": "PetDetails",
                 "to_name": "getFirstName",
                 "calling_type": "CALL"
-              },
-              {
-                "from_type": "Java Record",
-                "to_type": "Java Class",
-                "from_name": "PetDetails",
-                "to_name": "Owner",
-                "calling_type": "CALL"
               }
             ],
             "comment": "",
-            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java",
-            "nb_calls_between_elements": 3
+            "nb_calls_between_elements": 3,
+            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
           }
         ],
         "files_list_comment": "",

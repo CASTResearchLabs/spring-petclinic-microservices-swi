@@ -6,16 +6,16 @@
           {
             "from_type": "Java Method",
             "to_type": "Java Field",
-            "from_name": "getVisitsForPets",
+            "from_name": "setHostname",
             "to_name": "hostname",
-            "calling_type": "READ"
+            "calling_type": "WRITE"
           },
           {
             "from_type": "Java Method",
             "to_type": "Java Field",
-            "from_name": "setHostname",
+            "from_name": "getVisitsForPets",
             "to_name": "hostname",
-            "calling_type": "WRITE"
+            "calling_type": "READ"
           },
           {
             "from_type": "Java Method",

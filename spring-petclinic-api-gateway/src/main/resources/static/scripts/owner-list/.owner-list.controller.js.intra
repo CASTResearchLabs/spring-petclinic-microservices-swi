@@ -11,23 +11,9 @@
             "calling_type": "CALL"
           },
           {
-            "from_type": "JavaScript function",
-            "to_type": "AngularJS GET http service",
-            "from_name": "controller_PARAM_2_2",
-            "to_name": "api/customer/owners",
-            "calling_type": "CALL"
-          },
-          {
             "from_type": "AngularJS Controller",
             "to_type": "JavaScript function",
             "from_name": "OwnerListController",
-            "to_name": "then_PARAM_1",
-            "calling_type": "CALL"
-          },
-          {
-            "from_type": "JavaScript function",
-            "to_type": "JavaScript function",
-            "from_name": "controller_PARAM_2_2",
             "to_name": "then_PARAM_1",
             "calling_type": "CALL"
           },
@@ -36,6 +22,20 @@
             "to_type": "JavaScript Files",
             "from_name": "OwnerListController",
             "to_name": "owner-list.controller.js",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "AngularJS GET http service",
+            "from_name": "controller_PARAM_2_2",
+            "to_name": "api/customer/owners",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "controller_PARAM_2_2",
+            "to_name": "then_PARAM_1",
             "calling_type": "CALL"
           }
         ],

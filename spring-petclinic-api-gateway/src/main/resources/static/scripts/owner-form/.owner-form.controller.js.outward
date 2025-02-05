@@ -6,18 +6,18 @@
           {
             "calls_between_elements": [
               {
+                "from_type": "AngularJS POST http service",
+                "to_type": "Spring MVC Post Operation",
+                "from_name": "api/customer/owners/{}",
+                "to_name": "owners/",
+                "calling_type": "CALL"
+              },
+              {
                 "from_type": "AngularJS GET http service",
                 "to_type": "Spring MVC Get Operation",
                 "from_name": "api/customer/owners/{}",
                 "to_name": "owners/{}/",
                 "calling_type": "CALL"
-              },
-              {
-                "from_type": "AngularJS Controller",
-                "to_type": "Spring MVC Get Operation",
-                "from_name": "OwnerFormController",
-                "to_name": "owners/{}/",
-                "calling_type": "GET"
               },
               {
                 "from_type": "AngularJS PUT http service",
@@ -28,15 +28,15 @@
               },
               {
                 "from_type": "JavaScript Files",
-                "to_type": "Spring MVC Put Operation",
+                "to_type": "Spring MVC Post Operation",
                 "from_name": "owner-form.controller.js",
-                "to_name": "owners/{}/",
-                "calling_type": "PUT"
+                "to_name": "owners/",
+                "calling_type": "POST"
               },
               {
-                "from_type": "AngularJS Model function",
+                "from_type": "JavaScript Files",
                 "to_type": "Spring MVC Put Operation",
-                "from_name": "submitOwnerForm",
+                "from_name": "owner-form.controller.js",
                 "to_name": "owners/{}/",
                 "calling_type": "PUT"
               }

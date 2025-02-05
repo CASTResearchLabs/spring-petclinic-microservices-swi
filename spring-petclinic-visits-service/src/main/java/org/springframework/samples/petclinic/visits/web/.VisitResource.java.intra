@@ -4,31 +4,10 @@
       {
         "calls_between_elements": [
           {
-            "from_type": "Java Method",
-            "to_type": "Java Constructor",
-            "from_name": "read",
-            "to_name": "Visits",
-            "calling_type": "CALL"
-          },
-          {
             "from_type": "Spring MVC Get Operation",
             "to_type": "Java Method",
             "from_name": "pets/visits/",
             "to_name": "read",
-            "calling_type": "CALL"
-          },
-          {
-            "from_type": "Spring MVC Get Operation",
-            "to_type": "Java Method",
-            "from_name": "owners/{}/pets/{}/visits/",
-            "to_name": "read",
-            "calling_type": "CALL"
-          },
-          {
-            "from_type": "Spring MVC Post Operation",
-            "to_type": "Java Method",
-            "from_name": "owners/{}/pets/{}/visits/",
-            "to_name": "create",
             "calling_type": "CALL"
           },
           {
@@ -40,13 +19,13 @@
           },
           {
             "from_type": "Spring MVC Get Operation",
-            "to_type": "Java Class",
+            "to_type": "Java Method",
             "from_name": "owners/{}/pets/{}/visits/",
-            "to_name": "VisitResource",
+            "to_name": "read",
             "calling_type": "CALL"
           },
           {
-            "from_type": "Spring MVC Post Operation",
+            "from_type": "Spring MVC Get Operation",
             "to_type": "Java Class",
             "from_name": "owners/{}/pets/{}/visits/",
             "to_name": "VisitResource",
@@ -58,6 +37,27 @@
             "from_name": "/",
             "to_name": "VisitResource",
             "calling_type": "PROTOTYPE"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Constructor",
+            "from_name": "read",
+            "to_name": "Visits",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Post Operation",
+            "to_type": "Java Method",
+            "from_name": "owners/{}/pets/{}/visits/",
+            "to_name": "create",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Spring MVC Post Operation",
+            "to_type": "Java Class",
+            "from_name": "owners/{}/pets/{}/visits/",
+            "to_name": "VisitResource",
+            "calling_type": "CALL"
           }
         ],
         "calls_between_elements_list_comment": "",

@@ -4,72 +4,28 @@
       {
         "files": [
           {
-            "from_file": "spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java",
-            "calls_between_elements": [
+            "calling_types": [
               {
-                "from_type": "Java Interface",
-                "to_type": "JPA Entity",
-                "from_name": "VisitRepository",
-                "to_name": "Visit",
-                "calling_type": "CALL"
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
               },
               {
-                "from_type": "Java Method",
-                "to_type": "JPA Entity Operation",
-                "from_name": "findByPetIdIn",
-                "to_name": "Select",
-                "calling_type": "CALL"
-              },
-              {
-                "from_type": "Java Method",
-                "to_type": "JPA Entity Operation",
-                "from_name": "findByPetId",
-                "to_name": "Select",
-                "calling_type": "CALL"
-              },
-              {
-                "from_type": "Java Interface",
-                "to_type": "Java Class",
-                "from_name": "VisitRepository",
-                "to_name": "Visit",
-                "calling_type": "USE"
-              },
-              {
-                "from_type": "Java Method",
-                "to_type": "Java Class",
-                "from_name": "findByPetIdIn",
-                "to_name": "Visit",
-                "calling_type": "USE"
+                "calling_type": "USE",
+                "nb_calls_between_elements": 1
               }
             ],
-            "comment": "calls_between_elements list is truncated to first 5 items",
+            "from_file": "spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java",
+            "comment": "calling_types list is truncated to first 5 items",
             "nb_calls_between_elements": 6
           },
           {
-            "from_file": "spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java",
-            "calls_between_elements": [
+            "calling_types": [
               {
-                "from_type": "Java Field",
-                "to_type": "Java Class",
-                "from_name": "items",
-                "to_name": "Visit",
-                "calling_type": "USE"
-              },
-              {
-                "from_type": "Java Method",
-                "to_type": "Java Class",
-                "from_name": "read",
-                "to_name": "Visit",
-                "calling_type": "USE"
-              },
-              {
-                "from_type": "Java Class",
-                "to_type": "Java Class",
-                "from_name": "VisitResource",
-                "to_name": "Visit",
-                "calling_type": "USE"
+                "calling_type": "USE",
+                "nb_calls_between_elements": 1
               }
             ],
+            "from_file": "spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java",
             "comment": "",
             "nb_calls_between_elements": 4
           }

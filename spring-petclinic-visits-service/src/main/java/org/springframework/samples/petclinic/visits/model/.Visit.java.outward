@@ -21,8 +21,8 @@
               }
             ],
             "comment": "",
-            "to_file": "spring-petclinic-visits-service/src/main/resources/db/hsqldb/schema.sql\nspring-petclinic-visits-service/src/main/resources/db/mysql/schema.sql",
-            "nb_calls_between_elements": 2
+            "nb_calls_between_elements": 2,
+            "to_file": "spring-petclinic-visits-service/src/main/resources/db/hsqldb/schema.sql\nspring-petclinic-visits-service/src/main/resources/db/mysql/schema.sql"
           }
         ],
         "files_list_comment": "",

@@ -42,18 +42,11 @@
               }
             ],
             "comment": "",
-            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/ResourceNotFoundException.java",
-            "nb_calls_between_elements": 5
+            "nb_calls_between_elements": 5,
+            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/ResourceNotFoundException.java"
           },
           {
             "calls_between_elements": [
-              {
-                "from_type": "Java Class",
-                "to_type": "Java Interface",
-                "from_name": "PetResource",
-                "to_name": "PetRepository",
-                "calling_type": "CALL"
-              },
               {
                 "from_type": "Java Method",
                 "to_type": "Java Method",
@@ -67,32 +60,39 @@
                 "from_name": "getPetTypes",
                 "to_name": "findPetTypes",
                 "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "PetResource",
+                "to_name": "PetRepository",
+                "calling_type": "CALL"
               }
             ],
             "comment": "",
-            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java",
-            "nb_calls_between_elements": 3
+            "nb_calls_between_elements": 3,
+            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java"
           },
           {
             "calls_between_elements": [
-              {
-                "from_type": "Java Class",
-                "to_type": "Java Record",
-                "from_name": "PetResource",
-                "to_name": "PetDetails",
-                "calling_type": "CALL"
-              },
               {
                 "from_type": "Java Method",
                 "to_type": "Java Constructor",
                 "from_name": "findPet",
                 "to_name": "PetDetails",
                 "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Record",
+                "from_name": "PetResource",
+                "to_name": "PetDetails",
+                "calling_type": "CALL"
               }
             ],
             "comment": "",
-            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java",
-            "nb_calls_between_elements": 2
+            "nb_calls_between_elements": 2,
+            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java"
           },
           {
             "calls_between_elements": [
@@ -112,8 +112,8 @@
               }
             ],
             "comment": "",
-            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java",
-            "nb_calls_between_elements": 2
+            "nb_calls_between_elements": 2,
+            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
           },
           {
             "calls_between_elements": [
@@ -133,8 +133,8 @@
               }
             ],
             "comment": "",
-            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java",
-            "nb_calls_between_elements": 2
+            "nb_calls_between_elements": 2,
+            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
           },
           {
             "calls_between_elements": [
@@ -154,8 +154,8 @@
               }
             ],
             "comment": "",
-            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java",
-            "nb_calls_between_elements": 2
+            "nb_calls_between_elements": 2,
+            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java"
           }
         ],
         "files_list_comment": "",

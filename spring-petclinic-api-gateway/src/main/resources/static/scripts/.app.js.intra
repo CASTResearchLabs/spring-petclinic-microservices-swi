@@ -11,17 +11,17 @@
             "calling_type": "CALL"
           },
           {
-            "from_type": "JavaScript Files",
-            "to_type": "JavaScript function",
-            "from_name": "app.js",
-            "to_name": "forEach_PARAM_1",
-            "calling_type": "CALL"
-          },
-          {
             "from_type": "JavaScript Initialisation",
             "to_type": "JavaScript function",
             "from_name": "app.js",
             "to_name": "petClinicApp_config_PARAM_1_5",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "JavaScript function",
+            "from_name": "app.js",
+            "to_name": "forEach_PARAM_1",
             "calling_type": "CALL"
           },
           {

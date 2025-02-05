@@ -11,17 +11,17 @@
             "calling_type": "CALL"
           },
           {
-            "from_type": "AngularJS Controller",
-            "to_type": "AngularJS GET http service",
-            "from_name": "VetListController",
-            "to_name": "api/vet/vets",
-            "calling_type": "CALL"
-          },
-          {
             "from_type": "JavaScript function",
             "to_type": "JavaScript function",
             "from_name": "controller_PARAM_2_2",
             "to_name": "then_PARAM_1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "AngularJS Controller",
+            "to_type": "AngularJS GET http service",
+            "from_name": "VetListController",
+            "to_name": "api/vet/vets",
             "calling_type": "CALL"
           },
           {

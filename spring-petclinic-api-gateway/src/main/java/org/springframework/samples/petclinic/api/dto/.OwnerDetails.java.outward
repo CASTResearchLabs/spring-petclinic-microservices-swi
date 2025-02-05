@@ -13,18 +13,18 @@
                 "calling_type": "USE"
               },
               {
-                "from_type": "Java Class",
-                "to_type": "Java Class",
-                "from_name": "OwnerDetails",
-                "to_name": "PetDetails",
-                "calling_type": "USE"
-              },
-              {
                 "from_type": "Java Method",
                 "to_type": "Java Class",
                 "from_name": "getPetIds",
                 "to_name": "PetDetails",
                 "calling_type": "READ"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Class",
+                "from_name": "OwnerDetails",
+                "to_name": "PetDetails",
+                "calling_type": "USE"
               },
               {
                 "from_type": "Java Class",

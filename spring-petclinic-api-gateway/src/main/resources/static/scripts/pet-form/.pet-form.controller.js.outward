@@ -6,8 +6,29 @@
           {
             "calls_between_elements": [
               {
+                "from_type": "AngularJS POST http service",
+                "to_type": "Spring MVC Post Operation",
+                "from_name": "api/customer/owners/{}/pets/{}",
+                "to_name": "owners/{}/pets/",
+                "calling_type": "CALL"
+              },
+              {
                 "from_type": "AngularJS GET http service",
                 "to_type": "Spring MVC Get Operation",
+                "from_name": "api/customer/owners/{}/pets/{}",
+                "to_name": "owners/{}/pets/{}/",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "AngularJS GET http service",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "api/customer/petTypes",
+                "to_name": "petTypes/",
+                "calling_type": "CALL"
+              },
+              {
+                "from_type": "AngularJS PUT http service",
+                "to_type": "Spring MVC Put Operation",
                 "from_name": "api/customer/owners/{}/pets/{}",
                 "to_name": "owners/{}/pets/{}/",
                 "calling_type": "CALL"
@@ -18,27 +39,6 @@
                 "from_name": "then_PARAM_1",
                 "to_name": "owners/{}/pets/{}/",
                 "calling_type": "GET"
-              },
-              {
-                "from_type": "JavaScript Files",
-                "to_type": "Spring MVC Get Operation",
-                "from_name": "pet-form.controller.js",
-                "to_name": "owners/{}/pets/{}/",
-                "calling_type": "GET"
-              },
-              {
-                "from_type": "AngularJS Controller",
-                "to_type": "Spring MVC Get Operation",
-                "from_name": "PetFormController",
-                "to_name": "owners/{}/pets/{}/",
-                "calling_type": "GET"
-              },
-              {
-                "from_type": "AngularJS GET http service",
-                "to_type": "Spring MVC Get Operation",
-                "from_name": "api/customer/petTypes",
-                "to_name": "petTypes/",
-                "calling_type": "CALL"
               }
             ],
             "comment": "calls_between_elements list is truncated to first 5 items",

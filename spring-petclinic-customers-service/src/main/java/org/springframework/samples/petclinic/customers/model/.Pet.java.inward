@@ -4,114 +4,50 @@
       {
         "files": [
           {
-            "from_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java",
-            "calls_between_elements": [
+            "calling_types": [
               {
-                "from_type": "Java Constructor",
-                "to_type": "Java Method",
-                "from_name": "PetDetails",
-                "to_name": "getOwner",
-                "calling_type": "CALL"
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
               },
               {
-                "from_type": "Java Constructor",
-                "to_type": "Java Method",
-                "from_name": "PetDetails",
-                "to_name": "getType",
-                "calling_type": "CALL"
-              },
-              {
-                "from_type": "Java Constructor",
-                "to_type": "Java Method",
-                "from_name": "PetDetails",
-                "to_name": "getBirthDate",
-                "calling_type": "CALL"
-              },
-              {
-                "from_type": "Java Constructor",
-                "to_type": "Java Method",
-                "from_name": "PetDetails",
-                "to_name": "getName",
-                "calling_type": "CALL"
-              },
-              {
-                "from_type": "Java Constructor",
-                "to_type": "Java Method",
-                "from_name": "PetDetails",
-                "to_name": "getId",
-                "calling_type": "CALL"
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 5
               }
             ],
-            "comment": "calls_between_elements list is truncated to first 5 items",
+            "from_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java",
+            "comment": "",
             "nb_calls_between_elements": 6
           },
           {
-            "from_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java",
-            "calls_between_elements": [
+            "calling_types": [
               {
-                "from_type": "Java Field",
-                "to_type": "Java Class",
-                "from_name": "pets",
-                "to_name": "Pet",
-                "calling_type": "USE"
-              },
-              {
-                "from_type": "Java Method",
-                "to_type": "Java Class",
-                "from_name": "getPets",
-                "to_name": "Pet",
-                "calling_type": "USE"
-              },
-              {
-                "from_type": "Java Method",
-                "to_type": "Java Class",
-                "from_name": "getPetsInternal",
-                "to_name": "Pet",
-                "calling_type": "USE"
-              },
-              {
-                "from_type": "Java Class",
-                "to_type": "Java Class",
-                "from_name": "Owner",
-                "to_name": "Pet",
-                "calling_type": "USE"
+                "calling_type": "USE",
+                "nb_calls_between_elements": 1
               }
             ],
+            "from_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java",
             "comment": "",
             "nb_calls_between_elements": 4
           },
           {
-            "from_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java",
-            "calls_between_elements": [
+            "calling_types": [
               {
-                "from_type": "Java Method",
-                "to_type": "Java Constructor",
-                "from_name": "processCreationForm",
-                "to_name": "Pet",
-                "calling_type": "CALL"
-              },
-              {
-                "from_type": "Java Class",
-                "to_type": "Java Class",
-                "from_name": "PetResource",
-                "to_name": "Pet",
-                "calling_type": "CALL"
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
               }
             ],
+            "from_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java",
             "comment": "",
             "nb_calls_between_elements": 2
           },
           {
-            "from_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java",
-            "calls_between_elements": [
+            "calling_types": [
               {
-                "from_type": "Java Interface",
-                "to_type": "Java Class",
-                "from_name": "PetRepository",
-                "to_name": "Pet",
-                "calling_type": "USE"
+                "calling_type": "USE",
+                "nb_calls_between_elements": 1
               }
             ],
+            "from_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java",
             "comment": "",
             "nb_calls_between_elements": 1
           }

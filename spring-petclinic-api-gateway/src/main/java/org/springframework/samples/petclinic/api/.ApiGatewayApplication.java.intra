@@ -4,34 +4,6 @@
       {
         "calls_between_elements": [
           {
-            "from_type": "Java Lambda Expression",
-            "to_type": "Java Field",
-            "from_name": "routerFunction$lambda$0",
-            "to_name": "indexHtml",
-            "calling_type": "READ"
-          },
-          {
-            "from_type": "Java Method",
-            "to_type": "Java Field",
-            "from_name": "routerFunction",
-            "to_name": "indexHtml",
-            "calling_type": "READ"
-          },
-          {
-            "from_type": "Java Lambda Expression",
-            "to_type": "Java Lambda Expression",
-            "from_name": "defaultCustomizer$lambda$0",
-            "to_name": "defaultCustomizer$lambda$0$lambda$0",
-            "calling_type": "CALL"
-          },
-          {
-            "from_type": "Java Method",
-            "to_type": "Java Lambda Expression",
-            "from_name": "defaultCustomizer",
-            "to_name": "defaultCustomizer$lambda$0",
-            "calling_type": "CALL"
-          },
-          {
             "from_type": "Spring WebFlux Get Operation",
             "to_type": "Java Lambda Expression",
             "from_name": "/",
@@ -44,6 +16,34 @@
             "from_name": "/",
             "to_name": "routerFunction",
             "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Lambda Expression",
+            "from_name": "defaultCustomizer$lambda$0",
+            "to_name": "defaultCustomizer$lambda$0$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Lambda Expression",
+            "to_type": "Java Field",
+            "from_name": "routerFunction$lambda$0",
+            "to_name": "indexHtml",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Lambda Expression",
+            "from_name": "defaultCustomizer",
+            "to_name": "defaultCustomizer$lambda$0",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "routerFunction",
+            "to_name": "indexHtml",
+            "calling_type": "READ"
           }
         ],
         "calls_between_elements_list_comment": "",

@@ -4,23 +4,13 @@
       {
         "files": [
           {
-            "from_file": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.component.js",
-            "calls_between_elements": [
+            "calling_types": [
               {
-                "from_type": "JavaScript Initialisation",
-                "to_type": "HTML Pages",
-                "from_name": "owner-details.component.js",
-                "to_name": "owner-details.template.html",
-                "calling_type": "USE"
-              },
-              {
-                "from_type": "JavaScript Files",
-                "to_type": "HTML Pages",
-                "from_name": "owner-details.component.js",
-                "to_name": "owner-details.template.html",
-                "calling_type": "USE"
+                "calling_type": "USE",
+                "nb_calls_between_elements": 1
               }
             ],
+            "from_file": "spring-petclinic-api-gateway/src/main/resources/static/scripts/owner-details/owner-details.component.js",
             "comment": "",
             "nb_calls_between_elements": 2
           }

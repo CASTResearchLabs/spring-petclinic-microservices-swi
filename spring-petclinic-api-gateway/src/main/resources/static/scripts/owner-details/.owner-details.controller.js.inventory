@@ -4,8 +4,8 @@
       {
         "types": [
           {
-            "nb_elements": 2,
             "comment": "",
+            "nb_elements": 2,
             "type": "JavaScript function",
             "elements": [
               {
@@ -19,8 +19,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "",
             "elements": [
               {
@@ -30,8 +30,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "AngularJS GET http service",
             "elements": [
               {
@@ -41,8 +41,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "JavaScript Files",
             "elements": [
               {
@@ -52,8 +52,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "AngularJS Controller",
             "elements": [
               {

@@ -4,8 +4,8 @@
       {
         "types": [
           {
-            "nb_elements": 6,
             "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 6,
             "type": "Java Lambda Expression",
             "elements": [
               {
@@ -31,8 +31,8 @@
             ]
           },
           {
-            "nb_elements": 3,
             "comment": "",
+            "nb_elements": 3,
             "type": "",
             "elements": [
               {
@@ -46,8 +46,8 @@
             ]
           },
           {
-            "nb_elements": 3,
             "comment": "",
+            "nb_elements": 3,
             "type": "Java Field",
             "elements": [
               {
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "nb_elements": 3,
             "comment": "",
+            "nb_elements": 3,
             "type": "Java Method",
             "elements": [
               {
@@ -84,8 +84,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "Spring MVC Get Operation",
             "elements": [
               {
@@ -95,8 +95,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "Java Instantiated Constructor",
             "elements": [
               {
@@ -106,8 +106,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "Java Constructor",
             "elements": [
               {
@@ -117,8 +117,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "Java Class",
             "elements": [
               {

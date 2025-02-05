@@ -4,65 +4,32 @@
       {
         "files": [
           {
-            "from_file": "spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.controller.js",
-            "calls_between_elements": [
+            "calling_types": [
               {
-                "from_type": "AngularJS GET http service",
-                "to_type": "Spring MVC Get Operation",
-                "from_name": "api/visit/owners/{}/pets/{}/visits",
-                "to_name": "owners/{}/pets/{}/visits/",
-                "calling_type": "CALL"
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
               },
               {
-                "from_type": "AngularJS Controller",
-                "to_type": "Spring MVC Get Operation",
-                "from_name": "VisitsController",
-                "to_name": "owners/{}/pets/{}/visits/",
-                "calling_type": "GET"
+                "calling_type": "POST",
+                "nb_calls_between_elements": 1
               },
               {
-                "from_type": "AngularJS POST http service",
-                "to_type": "Spring MVC Post Operation",
-                "from_name": "api/visit/owners/{}/pets/{}/visits/{}",
-                "to_name": "owners/{}/pets/{}/visits/",
-                "calling_type": "CALL"
-              },
-              {
-                "from_type": "JavaScript Files",
-                "to_type": "Spring MVC Post Operation",
-                "from_name": "visits.controller.js",
-                "to_name": "owners/{}/pets/{}/visits/",
-                "calling_type": "POST"
-              },
-              {
-                "from_type": "AngularJS Model function",
-                "to_type": "Spring MVC Post Operation",
-                "from_name": "submit",
-                "to_name": "owners/{}/pets/{}/visits/",
-                "calling_type": "POST"
+                "calling_type": "GET",
+                "nb_calls_between_elements": 1
               }
             ],
-            "comment": "calls_between_elements list is truncated to first 5 items",
+            "from_file": "spring-petclinic-api-gateway/src/main/resources/static/scripts/visits/visits.controller.js",
+            "comment": "calling_types list is truncated to first 5 items",
             "nb_calls_between_elements": 6
           },
           {
-            "from_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java",
-            "calls_between_elements": [
+            "calling_types": [
               {
-                "from_type": "Java Method",
-                "to_type": "Spring MVC Get Operation",
-                "from_name": "getVisitsForPets",
-                "to_name": "pets/visits/",
-                "calling_type": "GET"
-              },
-              {
-                "from_type": "Java Class",
-                "to_type": "Spring MVC Get Operation",
-                "from_name": "VisitsServiceClient",
-                "to_name": "pets/visits/",
-                "calling_type": "GET"
+                "calling_type": "GET",
+                "nb_calls_between_elements": 1
               }
             ],
+            "from_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java",
             "comment": "",
             "nb_calls_between_elements": 2
           }

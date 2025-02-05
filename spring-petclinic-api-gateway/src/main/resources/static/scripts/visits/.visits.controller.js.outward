@@ -6,23 +6,16 @@
           {
             "calls_between_elements": [
               {
-                "from_type": "AngularJS GET http service",
-                "to_type": "Spring MVC Get Operation",
-                "from_name": "api/visit/owners/{}/pets/{}/visits",
+                "from_type": "AngularJS POST http service",
+                "to_type": "Spring MVC Post Operation",
+                "from_name": "api/visit/owners/{}/pets/{}/visits/{}",
                 "to_name": "owners/{}/pets/{}/visits/",
                 "calling_type": "CALL"
               },
               {
-                "from_type": "AngularJS Controller",
+                "from_type": "AngularJS GET http service",
                 "to_type": "Spring MVC Get Operation",
-                "from_name": "VisitsController",
-                "to_name": "owners/{}/pets/{}/visits/",
-                "calling_type": "GET"
-              },
-              {
-                "from_type": "AngularJS POST http service",
-                "to_type": "Spring MVC Post Operation",
-                "from_name": "api/visit/owners/{}/pets/{}/visits/{}",
+                "from_name": "api/visit/owners/{}/pets/{}/visits",
                 "to_name": "owners/{}/pets/{}/visits/",
                 "calling_type": "CALL"
               },
@@ -39,6 +32,13 @@
                 "from_name": "submit",
                 "to_name": "owners/{}/pets/{}/visits/",
                 "calling_type": "POST"
+              },
+              {
+                "from_type": "AngularJS Controller",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "VisitsController",
+                "to_name": "owners/{}/pets/{}/visits/",
+                "calling_type": "GET"
               }
             ],
             "comment": "calls_between_elements list is truncated to first 5 items",

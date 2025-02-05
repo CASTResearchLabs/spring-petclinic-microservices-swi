@@ -6,20 +6,6 @@
           {
             "from_type": "Java Method",
             "to_type": "Java Field",
-            "from_name": "getPetsInternal",
-            "to_name": "pets",
-            "calling_type": "READ"
-          },
-          {
-            "from_type": "Java Method",
-            "to_type": "Java Field",
-            "from_name": "getPetsInternal",
-            "to_name": "pets",
-            "calling_type": "WRITE"
-          },
-          {
-            "from_type": "Java Method",
-            "to_type": "Java Field",
             "from_name": "toString",
             "to_name": "telephone",
             "calling_type": "READ"
@@ -41,20 +27,6 @@
           {
             "from_type": "Java Method",
             "to_type": "Java Method",
-            "from_name": "addPet",
-            "to_name": "getPetsInternal",
-            "calling_type": "CALL"
-          },
-          {
-            "from_type": "Java Method",
-            "to_type": "Java Method",
-            "from_name": "getPets",
-            "to_name": "getPetsInternal",
-            "calling_type": "CALL"
-          },
-          {
-            "from_type": "Java Method",
-            "to_type": "Java Method",
             "from_name": "toString",
             "to_name": "getLastName",
             "calling_type": "CALL"
@@ -72,6 +44,34 @@
             "from_name": "toString",
             "to_name": "getId",
             "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "addPet",
+            "to_name": "getPetsInternal",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Method",
+            "from_name": "getPets",
+            "to_name": "getPetsInternal",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPetsInternal",
+            "to_name": "pets",
+            "calling_type": "READ"
+          },
+          {
+            "from_type": "Java Method",
+            "to_type": "Java Field",
+            "from_name": "getPetsInternal",
+            "to_name": "pets",
+            "calling_type": "WRITE"
           }
         ],
         "calls_between_elements_list_comment": "",

@@ -11,6 +11,34 @@
             "calling_type": "CALL"
           },
           {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "submit",
+            "to_name": "then_PARAM_1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "AngularJS GET http service",
+            "from_name": "controller_PARAM_2_5",
+            "to_name": "api/visit/owners/{}/pets/{}/visits",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript function",
+            "to_type": "JavaScript function",
+            "from_name": "controller_PARAM_2_5",
+            "to_name": "then_PARAM_1",
+            "calling_type": "CALL"
+          },
+          {
+            "from_type": "JavaScript Files",
+            "to_type": "AngularJS Controller",
+            "from_name": "visits.controller.js",
+            "to_name": "VisitsController",
+            "calling_type": "CALL"
+          },
+          {
             "from_type": "AngularJS Model function",
             "to_type": "AngularJS POST http service",
             "from_name": "submit",
@@ -18,27 +46,6 @@
             "calling_type": "CALL"
           },
           {
-            "from_type": "JavaScript function",
-            "to_type": "AngularJS GET http service",
-            "from_name": "controller_PARAM_2_5",
-            "to_name": "api/visit/owners/{}/pets/{}/visits",
-            "calling_type": "CALL"
-          },
-          {
-            "from_type": "AngularJS Controller",
-            "to_type": "AngularJS GET http service",
-            "from_name": "VisitsController",
-            "to_name": "api/visit/owners/{}/pets/{}/visits",
-            "calling_type": "CALL"
-          },
-          {
-            "from_type": "JavaScript function",
-            "to_type": "JavaScript function",
-            "from_name": "submit",
-            "to_name": "then_PARAM_1",
-            "calling_type": "CALL"
-          },
-          {
             "from_type": "AngularJS Model function",
             "to_type": "JavaScript function",
             "from_name": "submit",
@@ -46,10 +53,10 @@
             "calling_type": "CALL"
           },
           {
-            "from_type": "JavaScript function",
-            "to_type": "JavaScript function",
-            "from_name": "controller_PARAM_2_5",
-            "to_name": "then_PARAM_1",
+            "from_type": "AngularJS Controller",
+            "to_type": "AngularJS GET http service",
+            "from_name": "VisitsController",
+            "to_name": "api/visit/owners/{}/pets/{}/visits",
             "calling_type": "CALL"
           },
           {
@@ -64,13 +71,6 @@
             "to_type": "JavaScript Files",
             "from_name": "VisitsController",
             "to_name": "visits.controller.js",
-            "calling_type": "CALL"
-          },
-          {
-            "from_type": "JavaScript Files",
-            "to_type": "AngularJS Controller",
-            "from_name": "visits.controller.js",
-            "to_name": "VisitsController",
             "calling_type": "CALL"
           }
         ],

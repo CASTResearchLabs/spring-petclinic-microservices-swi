@@ -4,58 +4,28 @@
       {
         "files": [
           {
-            "from_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java",
-            "calls_between_elements": [
+            "calling_types": [
               {
-                "from_type": "Java Class",
-                "to_type": "Java Class",
-                "from_name": "ApiGatewayController",
-                "to_name": "Visits",
-                "calling_type": "CALL"
+                "calling_type": "USE",
+                "nb_calls_between_elements": 1
               },
               {
-                "from_type": "Java Method",
-                "to_type": "Java Class",
-                "from_name": "emptyVisitsForPets",
-                "to_name": "Visits",
-                "calling_type": "USE"
-              },
-              {
-                "from_type": "Java Method",
-                "to_type": "Java Class",
-                "from_name": "addVisitsToOwner",
-                "to_name": "Visits",
-                "calling_type": "USE"
-              },
-              {
-                "from_type": "Java Class",
-                "to_type": "Java Class",
-                "from_name": "ApiGatewayController",
-                "to_name": "Visits",
-                "calling_type": "USE"
+                "calling_type": "CALL",
+                "nb_calls_between_elements": 1
               }
             ],
+            "from_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java",
             "comment": "",
             "nb_calls_between_elements": 4
           },
           {
-            "from_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java",
-            "calls_between_elements": [
+            "calling_types": [
               {
-                "from_type": "Java Method",
-                "to_type": "Java Class",
-                "from_name": "getVisitsForPets",
-                "to_name": "Visits",
-                "calling_type": "USE"
-              },
-              {
-                "from_type": "Java Class",
-                "to_type": "Java Class",
-                "from_name": "VisitsServiceClient",
-                "to_name": "Visits",
-                "calling_type": "USE"
+                "calling_type": "USE",
+                "nb_calls_between_elements": 1
               }
             ],
+            "from_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java",
             "comment": "",
             "nb_calls_between_elements": 2
           }

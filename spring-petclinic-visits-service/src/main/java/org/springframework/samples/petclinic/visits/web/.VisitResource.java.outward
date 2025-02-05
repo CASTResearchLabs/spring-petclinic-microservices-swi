@@ -28,18 +28,11 @@
               }
             ],
             "comment": "",
-            "to_file": "spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java",
-            "nb_calls_between_elements": 4
+            "nb_calls_between_elements": 4,
+            "to_file": "spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java"
           },
           {
             "calls_between_elements": [
-              {
-                "from_type": "Java Class",
-                "to_type": "Java Interface",
-                "from_name": "VisitResource",
-                "to_name": "VisitRepository",
-                "calling_type": "CALL"
-              },
               {
                 "from_type": "Java Method",
                 "to_type": "Java Method",
@@ -53,11 +46,18 @@
                 "from_name": "read",
                 "to_name": "findByPetId",
                 "calling_type": "CALL"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Java Interface",
+                "from_name": "VisitResource",
+                "to_name": "VisitRepository",
+                "calling_type": "CALL"
               }
             ],
             "comment": "",
-            "to_file": "spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java",
-            "nb_calls_between_elements": 3
+            "nb_calls_between_elements": 3,
+            "to_file": "spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java"
           }
         ],
         "files_list_comment": "",

@@ -7,27 +7,6 @@
             "calls_between_elements": [
               {
                 "from_type": "Java Method",
-                "to_type": "Spring MVC Get Operation",
-                "from_name": "getOwner",
-                "to_name": "owners/{}/",
-                "calling_type": "GET"
-              },
-              {
-                "from_type": "Java Class",
-                "to_type": "Spring MVC Get Operation",
-                "from_name": "CustomersServiceClient",
-                "to_name": "owners/{}/",
-                "calling_type": "GET"
-              }
-            ],
-            "comment": "",
-            "nb_calls_between_elements": 2,
-            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
-          },
-          {
-            "calls_between_elements": [
-              {
-                "from_type": "Java Method",
                 "to_type": "MySQL Table",
                 "from_name": "getOwner",
                 "to_name": "owners",
@@ -65,6 +44,27 @@
             "comment": "",
             "nb_calls_between_elements": 2,
             "to_file": "spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/OwnerDetails.java"
+          },
+          {
+            "calls_between_elements": [
+              {
+                "from_type": "Java Method",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "getOwner",
+                "to_name": "owners/{}/",
+                "calling_type": "GET"
+              },
+              {
+                "from_type": "Java Class",
+                "to_type": "Spring MVC Get Operation",
+                "from_name": "CustomersServiceClient",
+                "to_name": "owners/{}/",
+                "calling_type": "GET"
+              }
+            ],
+            "comment": "",
+            "nb_calls_between_elements": 2,
+            "to_file": "spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
           }
         ],
         "files_list_comment": "",

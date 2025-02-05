@@ -4,8 +4,8 @@
       {
         "types": [
           {
-            "nb_elements": 7,
             "comment": "elements list is truncated to first 5 items",
+            "nb_elements": 7,
             "type": "Java Method",
             "elements": [
               {
@@ -31,8 +31,8 @@
             ]
           },
           {
-            "nb_elements": 4,
             "comment": "",
+            "nb_elements": 4,
             "type": "Java Field",
             "elements": [
               {
@@ -54,8 +54,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "",
             "elements": [
               {
@@ -65,8 +65,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "Java Constructor",
             "elements": [
               {
@@ -76,8 +76,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "JPA Entity",
             "elements": [
               {
@@ -87,8 +87,8 @@
             ]
           },
           {
-            "nb_elements": 1,
             "comment": "",
+            "nb_elements": 1,
             "type": "Java Class",
             "elements": [
               {
